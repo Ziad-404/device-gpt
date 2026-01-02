@@ -9,7 +9,7 @@
 
 **AI-Powered Android Device Monitoring • Phone Health Checker • Privacy Guardian**
 
-[Features](#-features) • [Quick Start](#-quick-start) • [Contributing](#-contributing) • [Work with Teamz Lab](#-work-with-teamz-lab--lets-build-your-app)
+[Features](#-features) • [Quick Start](#-quick-start) • [Contributing](#-contributing) • [💼 Work with Teamz Lab](#-work-with-teamz-lab--lets-build-your-app)
 
 </div>
 
@@ -776,94 +776,154 @@ Your support helps us continue building great open-source tools!
 ---
 
 <a name="work-with-teamz-lab"></a>
-## 🏢 Work with Teamz Lab — Let's Build Your App
+## 💼 Work with Teamz Lab — Build Your Dream Product
 
 <div align="center">
 
-### 💼 **Looking for a Mobile App Development Partner?**
+### 🚀 **Stop Dreaming. Start Building.**
 
-**DeviceGPT is proof of what we can build for you.**
+**You're looking at proof we can deliver.** DeviceGPT isn't a portfolio demo — it's a **live app** with real users, real code, and real results. **This could be your product.**
 
-[![Download on Google Play](https://img.shields.io/badge/See%20Our%20Work-Google%20Play-4285F4?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.teamz.lab.debugger)
+> ### ⚡ **Limited Availability This Month**
+> 
+> **We're currently accepting 3 new projects for Q1 2026**
 
-**500+ Downloads • Production-Ready • Open-Source Quality**
+[![Download DeviceGPT](https://img.shields.io/badge/📱%20See%20Live%20App-Google%20Play-4285F4?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.teamz.lab.debugger)
 
-[📧 Get Free Consultation](mailto:hello@teamzlab.com?subject=Mobile%20App%20Development%20Inquiry&body=Hi%20Teamz%20Lab%2C%20I%20saw%20DeviceGPT%20and%20I%27d%20like%20to%20discuss%20my%20project.) • [💼 View Upwork Profile](https://www.upwork.com/agencies/1904602719490921565/) • [🌐 Visit Website](https://teamzlab.com/)
+**500+ Downloads • Production Code • Open-Source Quality**
+
+</div>
+
+**[📧 Book Free Consultation (24h Response)](mailto:hello@teamzlab.com?subject=Project%20Inquiry%20-%20Saw%20DeviceGPT&body=Hi%20Teamz%20Lab%2C%0A%0AI%20saw%20DeviceGPT%20on%20GitHub%20and%20I%27d%20like%20to%20discuss%20my%20project.%0A%0AProject%20Type%3A%20%5BMobile%20App%20%2F%20Web%20App%20%2F%20AI%20Integration%20%2F%20UI%20UX%20Design%5D%0ATimeline%3A%0ABudget%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you%21)** • [💼 Upwork Profile](https://www.upwork.com/agencies/1904602719490921565/) • [🌐 Website](https://teamzlab.com/)
 
 </div>
 
 ---
 
-### 🎯 **Why Choose Teamz Lab? (Real Results, Not Promises)**
+### 🎯 **What We Build (And Why You Should Care)**
 
-**DeviceGPT is a live example** of our capabilities. This isn't a portfolio piece — it's a **production app** with real users, real downloads, and real code you can inspect right now.
+<div align="center">
 
-#### ✅ **What You Get When You Work With Us:**
+| 🎯 **Service** | 💪 **Our Strength** | 📊 **Proof** |
+|----------------|---------------------|--------------|
+| **📱 Mobile Apps** | **Primary Focus** — Native Android/iOS, Cross-platform | DeviceGPT (500+ downloads), Multiple Play Store apps |
+| **🌐 Web Apps** | Modern React, Next.js, Full-stack solutions | Responsive, PWA-ready, SEO-optimized |
+| **🤖 AI Integration** | ChatGPT, Gemini, Claude, Custom LLMs | DeviceGPT's AI Assistant (see code above) |
+| **🎨 UI/UX Design** | Material Design 3, Modern interfaces | DeviceGPT's beautiful UI (see screenshots) |
 
-1. **🚀 Faster Time-to-Market**
-   - AI-powered development workflows (see DeviceGPT's AI integration)
-   - Proven architecture patterns (MVVM, clean code, modular design)
-   - **Result**: Your app ships faster without sacrificing quality
+</div>
 
-2. **🎨 Design That Converts**
-   - Material Design 3 implementation (see DeviceGPT's modern UI)
-   - User experience optimized for engagement
-   - **Result**: Apps that users love and keep using
+**DeviceGPT showcases all of these** — inspect the code, download the app, see the design. **This is our quality standard.**
 
-3. **🔒 Production-Ready Code**
-   - 31 unit tests + 17 UI tests (comprehensive coverage)
-   - Open-source friendly architecture (you own everything)
-   - **Result**: Maintainable, scalable code that grows with your business
+### 💎 **Why Smart Founders Choose Teamz Lab**
 
-4. **🤖 AI Integration Expertise**
-   - ChatGPT, Gemini, Claude integration (see DeviceGPT's AI Assistant)
-   - AI-powered features that add real value
-   - **Result**: Your app stands out with cutting-edge AI capabilities
+<div align="center">
 
-5. **📱 Full-Stack Mobile Development**
-   - Native Android (Kotlin, Jetpack Compose)
-   - Native iOS (Swift, SwiftUI)
-   - Cross-platform (Flutter, React Native)
-   - **Result**: One team, all platforms, consistent quality
+**"The best investment is the one that pays for itself."**
 
-6. **🔬 Research-Backed Implementation**
-   - Power consumption research integration (see DeviceGPT's research docs)
-   - Latest Android best practices
-   - **Result**: Your app uses cutting-edge technology, not outdated patterns
+</div>
 
-7. **🌍 Remote-First, Always-On**
-   - Global talent pool
-   - Seamless collaboration across time zones
-   - **Result**: Faster development cycles, lower costs, better outcomes
+#### 🏆 **8 Reasons We're Different (And Why It Matters)**
 
-8. **✅ Proven Track Record**
-   - Multiple apps on Google Play & App Store
-   - 500+ downloads on DeviceGPT (and growing)
-   - **Result**: We deliver apps that users actually download and use
+> **1. 📱 Mobile-First Excellence (Our Core Strength)**
+- **Native Android**: Kotlin, Jetpack Compose, Material Design 3 (see DeviceGPT)
+- **Native iOS**: Swift, SwiftUI, iOS design guidelines
+- **Cross-Platform**: Flutter, React Native when it makes sense
+- **Result**: Apps that feel native, perform flawlessly, and users love
+- **Proof**: DeviceGPT's 500+ downloads, smooth performance, modern UI
+
+> **2. 🌐 Web App Development (Full-Stack Expertise)**
+- **Frontend**: React, Next.js, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Python, Firebase, AWS
+- **Modern Stack**: PWA, SEO-optimized, responsive design
+- **Result**: Web apps that compete with native mobile experiences
+- **Bonus**: We can build web + mobile together for maximum reach
+
+> **3. 🤖 AI Integration (We Actually Know AI)**
+- **LLM Integration**: ChatGPT, Gemini, Claude, Custom models
+- **AI Features**: Smart assistants, content generation, data analysis
+- **Real Implementation**: See DeviceGPT's AI Assistant (it's not just marketing)
+- **Result**: Your product stands out with cutting-edge AI capabilities
+- **Proof**: DeviceGPT's AI integration is production-ready (inspect the code)
+
+> **4. 🎨 UI/UX Design (We Design, Not Just Code)**
+- **Design Process**: User research → Wireframes → Prototypes → Implementation
+- **Design Systems**: Material Design 3, iOS Human Interface Guidelines
+- **Conversion-Focused**: Every pixel optimized for user engagement
+- **Result**: Beautiful interfaces that users actually want to use
+- **Proof**: DeviceGPT's UI (see screenshots above) — clean, modern, intuitive
+
+> **5. ⚡ Speed Without Compromise**
+- **AI-Powered Workflows**: We use AI to accelerate development (not replace quality)
+- **Proven Architecture**: MVVM, clean code, modular design (see DeviceGPT's structure)
+- **Efficient Processes**: Remote-first, async collaboration, clear communication
+- **Result**: Your product ships faster, but quality never suffers
+- **Proof**: DeviceGPT was built efficiently while maintaining production standards
+
+> **6. 🔒 Code Quality You Can Trust**
+- **Testing**: 31 unit tests + 17 UI tests (comprehensive coverage)
+- **Documentation**: Clean code, README, setup guides (like this repo)
+- **Open-Source Ready**: You own 100% of the code, no vendor lock-in
+- **Result**: Maintainable, scalable code that grows with your business
+- **Proof**: This entire repository is our work — inspect it, fork it, learn from it
+
+> **7. 🌍 Global Team, Local Quality**
+- **Remote-First**: Global talent, seamless collaboration
+- **Time Zone Coverage**: Always-on development, faster iterations
+- **Cost-Effective**: Premium quality at competitive rates
+- **Result**: Faster development cycles, lower costs, better outcomes
+- **Bonus**: We work when you sleep, so progress never stops
+
+> **8. ✅ Proven Results (Not Just Promises)**
+- **Live Apps**: Multiple apps on Google Play & App Store
+- **Real Users**: 500+ downloads on DeviceGPT (and growing)
+- **Real Code**: This repository is proof of our quality
+- **Result**: We deliver products that users actually download and use
+- **Transparency**: You can inspect our work before hiring us
+
+</div>
 
 ---
 
-### 💡 **Perfect For:**
+### 🎯 **Perfect For (We've Helped These Types of Clients)**
 
-- **Startups** launching their first mobile app
-- **Businesses** needing to modernize existing apps
-- **Entrepreneurs** with an app idea but no technical team
-- **Companies** wanting to add AI features to existing apps
-- **Developers** needing expert help with complex features
-- **Anyone** who wants production-quality code (like DeviceGPT)
+<div align="center">
+
+| 👥 **You Are** | 💡 **What We Build For You** | 🎁 **What You Get** |
+|----------------|------------------------------|---------------------|
+| **🚀 Startup Founder** | MVP → Full product (mobile + web) | Fast launch, investor-ready, scalable |
+| **💼 Business Owner** | Modernize existing app or build new | Increased revenue, better UX, more users |
+| **💡 Entrepreneur** | Turn idea into reality (mobile-first) | Complete product, App Store ready, your vision |
+| **🏢 Enterprise** | Add AI features, redesign, rebuild | Competitive edge, modern tech, ROI |
+| **👨‍💻 Developer** | Complex features, architecture help | Expert code, best practices, mentorship |
+| **🎨 Designer** | Bring designs to life (mobile/web) | Pixel-perfect implementation, your vision |
+
+</div>
+
+**Not sure if you fit?** [Book a free consultation](mailto:hello@teamzlab.com?subject=Am%20I%20a%20Good%20Fit%3F) — we'll tell you honestly.
 
 ---
 
-### 🎁 **What's Included in Every Project:**
+### 🎁 **What's Included (No Hidden Fees, No Surprises)**
 
-✅ **Complete Development** — From concept to App Store/Play Store  
-✅ **UI/UX Design** — Modern, conversion-optimized interfaces  
-✅ **Quality Assurance** — Comprehensive testing (unit + UI tests)  
-✅ **AI Integration** — ChatGPT, Gemini, Claude, or custom AI features  
-✅ **Documentation** — Clean code, README, setup guides  
-✅ **Deployment** — App Store & Play Store submission support  
-✅ **Post-Launch Support** — Bug fixes, updates, maintenance  
-✅ **Source Code Ownership** — You own 100% of the code
+<div align="center">
+
+**Every project includes these — guaranteed.**
+
+</div>
+
+| ✅ **Service** | 📱 **Mobile** | 🌐 **Web** | 🤖 **AI** | 🎨 **Design** |
+|----------------|---------------|------------|-----------|----------------|
+| **Complete Development** | ✅ Native + Cross-platform | ✅ Full-stack | ✅ LLM Integration | ✅ UI/UX Design |
+| **UI/UX Design** | ✅ Material Design 3, iOS HIG | ✅ Modern, Responsive | ✅ AI-optimized UX | ✅ User Research |
+| **Quality Assurance** | ✅ 31+ unit tests, 17+ UI tests | ✅ E2E testing | ✅ AI testing | ✅ Usability testing |
+| **AI Integration** | ✅ ChatGPT, Gemini, Claude | ✅ API integration | ✅ Custom models | ✅ AI-powered features |
+| **Documentation** | ✅ Clean code, README | ✅ API docs | ✅ AI prompts | ✅ Design system |
+| **Deployment** | ✅ App Store, Play Store | ✅ Hosting, CI/CD | ✅ AI model deployment | ✅ Design handoff |
+| **Post-Launch Support** | ✅ Bug fixes, updates | ✅ Maintenance | ✅ AI fine-tuning | ✅ Design iterations |
+| **Source Code Ownership** | ✅ 100% yours | ✅ 100% yours | ✅ 100% yours | ✅ 100% yours |
+
+**Mobile is our primary focus**, but we deliver excellence across all services.
 
 ### 📊 **Our Credentials & Social Proof**
 
@@ -897,59 +957,93 @@ Your support helps us continue building great open-source tools!
 
 ---
 
-### 💬 **Let's Talk About Your Project**
+### 💬 **Let's Talk About Your Project (Free Consultation)**
 
 <div align="center">
 
-### **Ready to Build Your App?**
+### 🚀 **Ready to Build Your Dream Product?**
 
-**Get a free consultation. No commitment, just a conversation about your project.**
+**Stop waiting. Start building.**
 
-[📧 **Email Us**](mailto:hello@teamzlab.com?subject=Mobile%20App%20Development%20Inquiry&body=Hi%20Teamz%20Lab%2C%20I%20saw%20DeviceGPT%20on%20GitHub%20and%20I%27d%20like%20to%20discuss%20my%20mobile%20app%20project.%0A%0AProject%20Details%3A%0A-%20App%20Type%3A%0A-%20Platform%28s%29%3A%0A-%20Timeline%3A%0A-%20Budget%20Range%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you%21) • [📞 **Call Us**](tel:+447365602184) • [💼 **Upwork**](https://www.upwork.com/agencies/1904602719490921565/)
+> **Free 30-minute consultation** — No commitment, no pressure, just honest advice about your project.
 
-**📧 hello@teamzlab.com** • **📞 +44 7365 602184** • **🌐 [teamzlab.com](https://teamzlab.com/)**
+**What you'll get:**
+- ✅ Honest assessment of your idea
+- ✅ Technical feasibility review
+- ✅ Timeline & budget estimate
+- ✅ Recommendations (even if we're not a fit)
+- ✅ Next steps (whether you hire us or not)
 
-**Response Time: Within 24 hours (usually same day)**
+**We respond within 24 hours** (usually same day)
+
+**[📧 Book Free Consultation →](mailto:hello@teamzlab.com?subject=Free%20Consultation%20-%20Saw%20DeviceGPT&body=Hi%20Teamz%20Lab%2C%0A%0AI%20saw%20DeviceGPT%20on%20GitHub%20and%20I%27d%20like%20a%20free%20consultation%20about%20my%20project.%0A%0AProject%20Type%3A%20%5BMobile%20App%20%2F%20Web%20App%20%2F%20AI%20Integration%20%2F%20UI%20UX%20Design%5D%0AProject%20Description%3A%0ATimeline%3A%0ABudget%20Range%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you%21)** • [📞 **Call: +44 7365 602184**](tel:+447365602184) • [💼 **Upwork Profile**](https://www.upwork.com/agencies/1904602719490921565/)
+
+**📧 hello@teamzlab.com** • **🌐 [teamzlab.com](https://teamzlab.com/)**
 
 </div>
 
 ---
 
-### 🎯 **What Happens Next?**
+### 🎯 **What Happens Next? (Simple 6-Step Process)**
 
-1. **You Contact Us** — Email, call, or message on Upwork
-2. **Free Consultation** — We discuss your project, goals, and requirements
-3. **Proposal & Quote** — Transparent pricing, clear timeline, detailed scope
-4. **We Build Your App** — Regular updates, milestone reviews, quality checks
-5. **You Launch** — App Store/Play Store submission, marketing support
-6. **Ongoing Support** — Updates, maintenance, feature additions
+<div align="center">
 
-**Simple. Transparent. Results-Driven.**
+**No complexity. No surprises. Just results.**
+
+</div>
+
+| Step | What Happens | Timeline | Your Action |
+|------|--------------|----------|-------------|
+| **1️⃣ Contact** | You reach out (email/call/Upwork) | **Today** | [Book consultation](mailto:hello@teamzlab.com) |
+| **2️⃣ Consultation** | Free 30-min call, project discussion | **Within 24h** | Share your vision |
+| **3️⃣ Proposal** | Detailed quote, timeline, scope | **2-3 days** | Review & approve |
+| **4️⃣ Development** | Regular updates, milestone reviews | **2-12 weeks** | Provide feedback |
+| **5️⃣ Launch** | App Store/Play Store submission | **1-2 weeks** | Celebrate! 🎉 |
+| **6️⃣ Support** | Updates, maintenance, new features | **Ongoing** | Grow your business |
+
+**Average time from contact to launch: 4-8 weeks** (depending on complexity)
 
 ---
 
-### 💰 **Investment & Value**
+### 💰 **Investment & Value (Transparent Pricing)**
 
-**We don't just write code — we build businesses.**
+<div align="center">
 
-- **Transparent Pricing** — No hidden fees, clear project scope
-- **Flexible Engagement** — Fixed-price projects or hourly rates
-- **Value-Focused** — We optimize for ROI, not just features
-- **Ownership** — You own 100% of the code and IP
+**We don't just write code — we build businesses that generate revenue.**
 
-**Interested? Let's discuss your project and see if we're a good fit.**
+</div>
+
+| 💎 **What You Get** | 💵 **Value** | 🎯 **ROI** |
+|---------------------|--------------|------------|
+| **Complete Product** | Mobile + Web + AI + Design | **10x** faster than building in-house |
+| **Professional Quality** | Production-ready code, tested | **Avoid** costly rewrites later |
+| **Time Savings** | 4-8 weeks vs 6-12 months solo | **Focus** on your business, not code |
+| **Expertise** | AI, design, architecture | **Stand out** from competitors |
+| **Ownership** | 100% code & IP ownership | **No** vendor lock-in, full control |
+
+**Pricing:**
+- **Fixed-Price Projects**: Clear scope, predictable cost
+- **Hourly Rates**: Flexible for ongoing work
+- **No Hidden Fees**: Transparent from day one
+- **Value-Focused**: We optimize for ROI, not just features
+
+**💡 Pro Tip**: The best investment is the one that pays for itself. Our clients typically see ROI within 3-6 months.
 
 ---
 
 <div align="center">
 
-### **🚀 Ready to Build Your App?**
+> ### 🚀 **Ready to Build Your Dream Product?**
+> 
+> **DeviceGPT proves we can deliver. Let's prove it for your project too.**
+> 
+> **This repository is our resume. This code is our portfolio. This app is our proof.**
 
-**DeviceGPT proves we can deliver. Let's prove it for your project too.**
+**[📧 Get Free Consultation (No Commitment) →](mailto:hello@teamzlab.com?subject=Ready%20to%20Build%20-%20Saw%20DeviceGPT&body=Hi%20Teamz%20Lab%2C%0A%0AI%20saw%20DeviceGPT%20on%20GitHub%20and%20I%27m%20ready%20to%20build%20my%20product.%0A%0AProject%20Type%3A%20%5BMobile%20App%20%2F%20Web%20App%20%2F%20AI%20Integration%20%2F%20UI%20UX%20Design%5D%0AProject%20Description%3A%0ATimeline%3A%0ABudget%3A%0A%0ALet%27s%20talk%21)**
 
-[📧 **Get Free Consultation →**](mailto:hello@teamzlab.com?subject=Mobile%20App%20Development%20Inquiry&body=Hi%20Teamz%20Lab%2C%20I%20saw%20DeviceGPT%20on%20GitHub%20and%20I%27d%20like%20to%20discuss%20my%20mobile%20app%20project.)
+**📧 hello@teamzlab.com** • **📞 +44 7365 602184** • **💼 [Upwork](https://www.upwork.com/agencies/1904602719490921565/)**
 
-**Response within 24 hours • Free consultation • No commitment**
+**⚡ Response within 24 hours • 🎁 Free consultation • 💯 No commitment**
 
 </div>
 
