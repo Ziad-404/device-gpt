@@ -1,0 +1,15 @@
+# Signing Configuration Template
+# 
+# INSTRUCTIONS:
+# 1. Copy this file to key.properties (in the root directory)
+# 2. Replace the placeholder values with your actual signing credentials
+# 3. Generate a keystore file using:
+#    keytool -genkey -v -keystore release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias release-key
+#
+# IMPORTANT: Never commit key.properties or release-key.jks to version control!
+
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=release-key
+storeFile=release-key.jks
+

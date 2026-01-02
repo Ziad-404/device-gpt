@@ -1,0 +1,182 @@
+<resources>
+    <!-- Thai (ไทย) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">ตรวจสอบอุปกรณ์ของคุณบนหน้าจอหลัก: พลังงาน แบตเตอรี่ RAM CPU เครือข่าย คะแนนสุขภาพ และสถิติรายวัน</string>
+    
+    <!-- Common -->
+    <string name="loading">กำลังโหลด…</string>
+    <string name="refresh">รีเฟรช</string>
+    <string name="refresh_all_data">รีเฟรชข้อมูลทั้งหมด</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="open_device_settings">เปิดการตั้งค่าอุปกรณ์</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="continue_text">ดำเนินการต่อ</string>
+    <string name="ok">ตกลง</string>
+    <string name="got_it">เข้าใจแล้ว!</string>
+    <string name="send">ส่ง</string>
+    <string name="share">แชร์</string>
+    <string name="menu">เมนู</string>
+    <string name="open_menu">เปิดเมนู</string>
+    <string name="open_menu_monitor_available">เปิดเมนู • มอนิเตอร์แบบเรียลไทม์พร้อมใช้งาน</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">ตัวเลือกสำหรับนักพัฒนา</string>
+    <string name="open_developer_options">เปิดตัวเลือกสำหรับนักพัฒนา</string>
+    
+    <!-- Certificate -->
+    <string name="cert">ใบรับรอง</string>
+    <string name="certificate">ใบรับรอง</string>
+    <string name="generate_device_certificate">สร้างใบรับรองอุปกรณ์</string>
+    <string name="loading_certificate_data">กำลังโหลดข้อมูลใบรับรอง…</string>
+    <string name="can_device_get_certified">อุปกรณ์ของคุณสามารถรับใบรับรองได้หรือไม่?</string>
+    <string name="certificate_description">รับใบรับรองอุปกรณ์ที่แพร่หลายพร้อมมูลค่าการขายต่อจริงและคะแนน! ป้อนราคาเดิมและสกุลเงินของอุปกรณ์ของคุณ</string>
+    <string name="original_price">ราคาเดิม</string>
+    <string name="currency_hint">สกุลเงิน (เช่น USD, THB)</string>
+    <string name="generate_my_device_certificate">สร้างใบรับรองอุปกรณ์ของฉัน</string>
+    <string name="certificate_subtitle">รับใบรับรองโทรศัพท์อย่างเป็นทางการและมูลค่าการขายต่อของคุณในไม่กี่วินาที—เหมาะสำหรับการแชร์หรือขาย!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">AI</string>
+    <string name="ai_assistant">ผู้ช่วย AI</string>
+    <string name="open_ai_assistant">เปิดผู้ช่วย AI</string>
+    <string name="loading_ai_assistant">กำลังโหลดผู้ช่วย AI…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">ข้อมูลอุปกรณ์</string>
+    <string name="network_info">ข้อมูลเครือข่าย</string>
+    <string name="health">สุขภาพ</string>
+    <string name="power">พลังงาน</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">การใช้พลังงาน</string>
+    <string name="component_breakdown">รายละเอียดส่วนประกอบ</string>
+    <string name="total_power_consumption">การใช้พลังงานทั้งหมด</string>
+    <string name="watts">W</string>
+    <string name="last_updated">อัปเดตล่าสุด: %1$s</string>
+    <string name="loading_power_data">กำลังโหลดข้อมูลการใช้พลังงาน…</string>
+    <string name="tap_for_more_info">แตะเพื่อดูข้อมูลเพิ่มเติม</string>
+    <string name="permission_required">ต้องได้รับอนุญาต</string>
+    <string name="grant_permission_description">ให้สิทธิ์เพื่อดูข้อมูลการใช้พลังงานที่แม่นยำสำหรับส่วนประกอบนี้</string>
+    <string name="grant_permission">ให้สิทธิ์</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">สถิติพลังงาน</string>
+    <string name="average">เฉลี่ย</string>
+    <string name="peak">สูงสุด</string>
+    <string name="samples">ตัวอย่าง</string>
+    <string name="trend">แนวโน้ม: %1$s</string>
+    <string name="efficiency_rating">คะแนนประสิทธิภาพ</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">ทดสอบพลังงานกล้อง</string>
+    <string name="camera_test_description">วัดปริมาณพลังงานแบตเตอรี่ที่โทรศัพท์ของคุณใช้เมื่อถ่ายภาพ</string>
+    <string name="camera_test_info">📷 คุณจะเห็นตัวอย่างกล้องแบบสดขณะที่เราวัด กล้องจะเปิดจริงและถ่ายภาพจริง</string>
+    <string name="camera_test_accuracy">📊 เราทำการวัดหลายครั้งและหาค่าเฉลี่ยเพื่อความแม่นยำ ความแตกต่างเล็กน้อยระหว่างการทดสอบเป็นเรื่องปกติ—อุณหภูมิและระดับแบตเตอรี่ของโทรศัพท์อาจส่งผลต่อผลลัพธ์</string>
+    <string name="camera_preview">ตัวอย่างกล้อง\n(จะแสดงฟีดสดระหว่างการทดสอบ)</string>
+    <string name="preview_live_feed">ตัวอย่างแสดงฟีดกล้องสดระหว่างการทดสอบแต่ละครั้ง</string>
+    <string name="testing">กำลังทดสอบ…</string>
+    <string name="single_test">ทดสอบครั้งเดียว</string>
+    <string name="five_tests">5 ครั้ง</string>
+    <string name="all_test_results">ผลการทดสอบทั้งหมด (รวม %1$d):</string>
+    <string name="test_result_format">การทดสอบ %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… และอีก %1$d (ดู CSV สำหรับทั้งหมด)</string>
+    <string name="total_tests">รวม %1$d การทดสอบ%2$s</string>
+    <string name="view_csv">ดู CSV</string>
+    <string name="camera_power_test_data">ข้อมูลทดสอบพลังงานกล้อง</string>
+    <string name="single_photo_power_test">📸 ทดสอบพลังงานภาพเดียว</string>
+    <string name="multiple_photo_power_tests">📊 ทดสอบพลังงานหลายภาพ</string>
+    <string name="test_results">ผลการทดสอบ:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">สแกนพลังงานหน้าจอ</string>
+    <string name="quick_sweep">สแกนด่วน</string>
+    <string name="full_sweep">สแกนเต็ม</string>
+    <string name="run_levels">รันระดับ</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">ไมโครเบนช์มาร์ก CPU</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">การสุ่มตัวอย่าง RSSI เครือข่าย</string>
+    <string name="start_60s_sampling">เริ่มการสุ่มตัวอย่าง 60 วินาที</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">ตัวติดตามการนอนของอุปกรณ์</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">สแกนสุขภาพอุปกรณ์</string>
+    <string name="scanning_device">กำลังสแกนอุปกรณ์…</string>
+    <string name="scanning">กำลังสแกน</string>
+    <string name="amazing_streak">🔥 สถิติที่น่าทึ่ง! คุณคือแชมป์สุขภาพ!</string>
+    <string name="great_consistency">💪 ความสม่ำเสมอยอดเยี่ยม! รักษาโมเมนตัมไว้!</string>
+    <string name="good_start">✅ เริ่มต้นที่ดี! สร้างนิสัยรายวันของคุณ!</string>
+    <string name="ready_to_start">🚀 พร้อมเริ่มต้นการเดินทางด้านสุขภาพของคุณแล้วหรือยัง?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 การเข้าถึงตำแหน่ง</string>
+    <string name="phone_info_access">📱 การเข้าถึงข้อมูลโทรศัพท์</string>
+    <string name="network_usage_stats">📊 สถิติการใช้เครือข่าย</string>
+    <string name="notification_permission_denied">ปฏิเสธสิทธิ์การแจ้งเตือน</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">แชร์ข้อมูลอุปกรณ์</string>
+    <string name="share_with_app">แชร์กับ %1$s</string>
+    <string name="unable_to_share_file">ไม่สามารถแชร์ไฟล์ได้: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">ดาวน์โหลดอัปเดตแล้ว! กำลังรีสตาร์ท…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">การใช้พลังงาน</string>
+    <string name="cd_refresh">รีเฟรช</string>
+    <string name="cd_settings">การตั้งค่า</string>
+    <string name="cd_certificate">ใบรับรอง</string>
+    <string name="cd_ai_assistant">ผู้ช่วย AI</string>
+    <string name="cd_send_info">ส่งข้อมูล</string>
+    <string name="cd_scan">สแกน</string>
+    <string name="cd_scanning">กำลังสแกน</string>
+    <string name="cd_camera_power_test">ทดสอบพลังงานกล้อง</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">ไม่สามารถแชร์ไฟล์ได้: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">ภาษา</string>
+    <string name="select_language">เลือกภาษา</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">เปิดการตั้งค่า</string>
+    <string name="close">ปิด</string>
+    <string name="allow">อนุญาต</string>
+    <string name="export_csv">ส่งออก CSV</string>
+    <string name="running_cpu_tests">กำลังรันการทดสอบ CPU…</string>
+    <string name="sampling_countdown">กำลังสุ่มตัวอย่าง… %1$ds</string>
+    <string name="light">สว่าง</string>
+    <string name="dark">มืด</string>
+    <string name="simple">ง่าย</string>
+    <string name="advanced">ขั้นสูง</string>
+    <string name="unavailable">ไม่พร้อมใช้งาน</string>
+    <string name="test">ทดสอบ</string>
+    <string name="want_more_magic">ต้องการเวทมนตร์มากขึ้น? แตะที่นี่</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">เริ่มการตรวจสอบแล้ว</string>
+    <string name="toast_permission_denied">ปฏิเสธสิทธิ์</string>
+    <string name="toast_monitoring_stopped">หยุดการตรวจสอบแล้ว</string>
+    <string name="toast_copied_to_clipboard">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
+    <string name="toast_error_opening_setting">เกิดข้อผิดพลาดในการเปิดการตั้งค่า: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">กำลังตรวจสอบแบตเตอรี่ ความเร็ว และอื่นๆ ⚙</string>
+</resources>
+

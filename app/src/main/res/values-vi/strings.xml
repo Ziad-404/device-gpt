@@ -1,0 +1,182 @@
+<resources>
+    <!-- Vietnamese (Tiếng Việt) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">Theo dõi thiết bị của bạn trên màn hình chính: nguồn, pin, RAM, CPU, mạng, điểm sức khỏe và chuỗi hàng ngày</string>
+    
+    <!-- Common -->
+    <string name="loading">Đang tải…</string>
+    <string name="refresh">Làm mới</string>
+    <string name="refresh_all_data">Làm mới tất cả dữ liệu</string>
+    <string name="settings">Cài đặt</string>
+    <string name="open_device_settings">Mở cài đặt thiết bị</string>
+    <string name="cancel">Hủy</string>
+    <string name="continue_text">Tiếp tục</string>
+    <string name="ok">OK</string>
+    <string name="got_it">Đã hiểu!</string>
+    <string name="send">Gửi</string>
+    <string name="share">Chia sẻ</string>
+    <string name="menu">Menu</string>
+    <string name="open_menu">Mở menu</string>
+    <string name="open_menu_monitor_available">Mở menu • Giám sát thời gian thực có sẵn</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">Tùy chọn nhà phát triển</string>
+    <string name="open_developer_options">Mở tùy chọn nhà phát triển</string>
+    
+    <!-- Certificate -->
+    <string name="cert">Chứng chỉ</string>
+    <string name="certificate">Chứng chỉ</string>
+    <string name="generate_device_certificate">Tạo chứng chỉ thiết bị</string>
+    <string name="loading_certificate_data">Đang tải dữ liệu chứng chỉ…</string>
+    <string name="can_device_get_certified">Thiết bị của bạn có thể được chứng nhận không?</string>
+    <string name="certificate_description">Nhận Chứng chỉ Thiết bị lan truyền với giá trị bán lại thực tế và xếp hạng! Nhập giá gốc và loại tiền tệ của thiết bị.</string>
+    <string name="original_price">Giá Gốc</string>
+    <string name="currency_hint">Loại tiền tệ (ví dụ: USD, VND)</string>
+    <string name="generate_my_device_certificate">Tạo Chứng chỉ Thiết bị của Tôi</string>
+    <string name="certificate_subtitle">Nhận chứng chỉ điện thoại chính thức và giá trị bán lại của bạn trong vài giây—hoàn hảo để chia sẻ hoặc bán!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">AI</string>
+    <string name="ai_assistant">Trợ lý AI</string>
+    <string name="open_ai_assistant">Mở trợ lý AI</string>
+    <string name="loading_ai_assistant">Đang tải trợ lý AI…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">Thông tin Thiết bị</string>
+    <string name="network_info">Thông tin Mạng</string>
+    <string name="health">Sức khỏe</string>
+    <string name="power">Nguồn</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">Tiêu thụ Năng lượng</string>
+    <string name="component_breakdown">Chi tiết Thành phần</string>
+    <string name="total_power_consumption">Tổng Tiêu thụ Năng lượng</string>
+    <string name="watts">W</string>
+    <string name="last_updated">Cập nhật lần cuối: %1$s</string>
+    <string name="loading_power_data">Đang tải dữ liệu tiêu thụ năng lượng…</string>
+    <string name="tap_for_more_info">Chạm để biết thêm thông tin</string>
+    <string name="permission_required">Cần Quyền</string>
+    <string name="grant_permission_description">Cấp quyền để xem dữ liệu tiêu thụ năng lượng chính xác cho thành phần này.</string>
+    <string name="grant_permission">Cấp Quyền</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">Thống kê Năng lượng</string>
+    <string name="average">Trung bình</string>
+    <string name="peak">Đỉnh</string>
+    <string name="samples">Mẫu</string>
+    <string name="trend">Xu hướng: %1$s</string>
+    <string name="efficiency_rating">Đánh giá Hiệu quả</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">Kiểm tra Năng lượng Camera</string>
+    <string name="camera_test_description">Đo lượng năng lượng pin mà điện thoại của bạn sử dụng khi chụp ảnh</string>
+    <string name="camera_test_info">📷 Bạn sẽ thấy bản xem trước camera trực tiếp trong khi chúng tôi đo. Camera thực sự mở và chụp một bức ảnh thật.</string>
+    <string name="camera_test_accuracy">📊 Chúng tôi thực hiện nhiều phép đo và tính trung bình để đảm bảo độ chính xác. Sự khác biệt nhỏ giữa các lần kiểm tra là bình thường—nhiệt độ và mức pin của điện thoại có thể ảnh hưởng đến kết quả.</string>
+    <string name="camera_preview">Bản xem trước Camera\n(Sẽ hiển thị luồng trực tiếp trong quá trình kiểm tra)</string>
+    <string name="preview_live_feed">Bản xem trước hiển thị luồng camera trực tiếp trong mỗi lần kiểm tra</string>
+    <string name="testing">Đang kiểm tra…</string>
+    <string name="single_test">Kiểm tra Đơn</string>
+    <string name="five_tests">5 Lần Kiểm tra</string>
+    <string name="all_test_results">Tất cả Kết quả Kiểm tra (tổng %1$d):</string>
+    <string name="test_result_format">Kiểm tra %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… và %1$d nữa (xem CSV cho tất cả)</string>
+    <string name="total_tests">%1$d lần kiểm tra%2$s tổng</string>
+    <string name="view_csv">Xem CSV</string>
+    <string name="camera_power_test_data">Dữ liệu Kiểm tra Năng lượng Camera</string>
+    <string name="single_photo_power_test">📸 Kiểm tra Năng lượng Ảnh Đơn</string>
+    <string name="multiple_photo_power_tests">📊 Kiểm tra Năng lượng Nhiều Ảnh</string>
+    <string name="test_results">Kết quả Kiểm tra:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">Quét Năng lượng Màn hình</string>
+    <string name="quick_sweep">Quét Nhanh</string>
+    <string name="full_sweep">Quét Đầy đủ</string>
+    <string name="run_levels">Chạy Các Mức</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">Điểm chuẩn CPU</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">Lấy mẫu RSSI Mạng</string>
+    <string name="start_60s_sampling">Bắt đầu Lấy mẫu 60s</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">Theo dõi Giấc ngủ Thiết bị</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">Quét Sức khỏe Thiết bị</string>
+    <string name="scanning_device">Đang quét thiết bị…</string>
+    <string name="scanning">Đang quét</string>
+    <string name="amazing_streak">🔥 Chuỗi tuyệt vời! Bạn là nhà vô địch sức khỏe!</string>
+    <string name="great_consistency">💪 Nhất quán tuyệt vời! Duy trì đà!</string>
+    <string name="good_start">✅ Khởi đầu tốt! Xây dựng thói quen hàng ngày của bạn!</string>
+    <string name="ready_to_start">🚀 Sẵn sàng bắt đầu hành trình sức khỏe của bạn?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 Truy cập Vị trí</string>
+    <string name="phone_info_access">📱 Truy cập Thông tin Điện thoại</string>
+    <string name="network_usage_stats">📊 Thống kê Sử dụng Mạng</string>
+    <string name="notification_permission_denied">Quyền thông báo bị từ chối</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">Chia sẻ Thông tin Thiết bị</string>
+    <string name="share_with_app">Chia sẻ với %1$s</string>
+    <string name="unable_to_share_file">Không thể chia sẻ tệp: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">Đã tải xuống cập nhật! Đang khởi động lại…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">Tiêu thụ Năng lượng</string>
+    <string name="cd_refresh">Làm mới</string>
+    <string name="cd_settings">Cài đặt</string>
+    <string name="cd_certificate">Chứng chỉ</string>
+    <string name="cd_ai_assistant">Trợ lý AI</string>
+    <string name="cd_send_info">Gửi Thông tin</string>
+    <string name="cd_scan">Quét</string>
+    <string name="cd_scanning">Đang quét</string>
+    <string name="cd_camera_power_test">Kiểm tra Năng lượng Camera</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">Không thể chia sẻ tệp: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">Ngôn ngữ</string>
+    <string name="select_language">Chọn Ngôn ngữ</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">Mở Cài đặt</string>
+    <string name="close">Đóng</string>
+    <string name="allow">Cho phép</string>
+    <string name="export_csv">Xuất CSV</string>
+    <string name="running_cpu_tests">Đang Chạy Kiểm tra CPU…</string>
+    <string name="sampling_countdown">Đang lấy mẫu… %1$ds</string>
+    <string name="light">Sáng</string>
+    <string name="dark">Tối</string>
+    <string name="simple">Đơn giản</string>
+    <string name="advanced">Nâng cao</string>
+    <string name="unavailable">Không khả dụng</string>
+    <string name="test">Kiểm tra</string>
+    <string name="want_more_magic">Muốn Thêm Phép Thuật? Chạm Vào Đây</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">Giám sát đã bắt đầu</string>
+    <string name="toast_permission_denied">Quyền bị từ chối</string>
+    <string name="toast_monitoring_stopped">Giám sát đã dừng</string>
+    <string name="toast_copied_to_clipboard">Đã sao chép vào clipboard</string>
+    <string name="toast_error_opening_setting">Lỗi khi mở cài đặt: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">Đang giám sát pin, tốc độ và hơn thế nữa ⚙</string>
+</resources>
+

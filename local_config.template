@@ -1,0 +1,23 @@
+# Local Configuration Template
+# 
+# INSTRUCTIONS:
+# 1. Copy this file to local_config.properties (in the root directory)
+# 2. Fill in your actual IDs below
+# 3. Never commit local_config.properties to git (it's already in .gitignore)
+#
+# This file stores your actual production IDs locally so you can use them
+# for development and building, while keeping the repository open source friendly.
+
+# AdMob Configuration
+ADMOB_APP_ID=YOUR_ADMOB_APP_ID
+APP_OPEN_AD_UNIT_ID=YOUR_APP_OPEN_AD_UNIT_ID
+INTERSTITIAL_AD_UNIT_ID=YOUR_INTERSTITIAL_AD_UNIT_ID
+NATIVE_AD_UNIT_ID=YOUR_NATIVE_AD_UNIT_ID
+REWARDED_AD_UNIT_ID=YOUR_REWARDED_AD_UNIT_ID
+
+# OAuth Configuration
+OAUTH_CLIENT_ID=YOUR_OAUTH_CLIENT_ID.apps.googleusercontent.com
+
+# OneSignal Configuration
+ONESIGNAL_APP_ID=YOUR_ONESIGNAL_APP_ID
+

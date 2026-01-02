@@ -1,0 +1,196 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">Monitor your device on home screen: power, battery, RAM, CPU, network, health score, and daily streak</string>
+    
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_all_data">Refresh all data</string>
+    <string name="settings">Settings</string>
+    <string name="open_device_settings">Open device settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="continue_text">Continue</string>
+    <string name="ok">OK</string>
+    <string name="got_it">Got it!</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="menu">Menu</string>
+    <string name="open_menu">Open menu</string>
+    <string name="open_menu_monitor_available">Open menu • Realtime Monitor available</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">Developer Options</string>
+    <string name="open_developer_options">Open developer options</string>
+    
+    <!-- Certificate -->
+    <string name="cert">Cert</string>
+    <string name="certificate">Certificate</string>
+    <string name="generate_device_certificate">Generate device certificate</string>
+    <string name="loading_certificate_data">Loading certificate data…</string>
+    <string name="can_device_get_certified">Can your device get certified?</string>
+    <string name="certificate_description">Get a viral Device Certificate with real resale value and rating! Enter your device\'s original price and currency.</string>
+    <string name="original_price">Original Price</string>
+    <string name="currency_hint">Currency (e.g. USD, BDT)</string>
+    <string name="generate_my_device_certificate">Generate My Device Certificate</string>
+    <string name="certificate_subtitle">Get your official phone certificate and resale value in seconds—perfect for sharing or selling!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">AI</string>
+    <string name="ai_assistant">AI Assistant</string>
+    <string name="open_ai_assistant">Open AI Assistant</string>
+    <string name="loading_ai_assistant">Loading AI assistant…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">Device Info</string>
+    <string name="network_info">Network Info</string>
+    <string name="health">Health</string>
+    <string name="power">Power</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">Power Consumption</string>
+    <string name="component_breakdown">Component Breakdown</string>
+    <string name="total_power_consumption">Total Power Consumption</string>
+    <string name="watts">W</string>
+    <string name="last_updated">Last updated: %1$s</string>
+    <string name="loading_power_data">Loading power consumption data…</string>
+    <string name="tap_for_more_info">Tap for more info</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="grant_permission_description">Grant permission to see accurate power consumption data for this component.</string>
+    <string name="grant_permission">Grant Permission</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">Power Statistics</string>
+    <string name="average">Average</string>
+    <string name="peak">Peak</string>
+    <string name="samples">Samples</string>
+    <string name="trend">Trend: %1$s</string>
+    <string name="efficiency_rating">Efficiency Rating</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">Camera Power Test</string>
+    <string name="camera_test_description">Measures how much battery power your phone uses when taking photos</string>
+    <string name="camera_test_info">📷 You\'ll see a live camera preview while we measure. The camera actually opens and takes a real photo.</string>
+    <string name="camera_test_accuracy">📊 We take multiple measurements and average them for accuracy. Small differences between tests are normal - your phone\'s temperature and battery level can affect results.</string>
+    <string name="camera_preview">Camera Preview\n(Will show live feed during test)</string>
+    <string name="preview_live_feed">Preview shows live camera feed during each test</string>
+    <string name="testing">Testing…</string>
+    <string name="single_test">Single Test</string>
+    <string name="five_tests">5 Tests</string>
+    <string name="all_test_results">All Test Results (%1$d total):</string>
+    <string name="test_result_format">Test %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… and %1$d more (view CSV for all)</string>
+    <string name="total_tests">%1$d test%2$s total</string>
+    <string name="view_csv">View CSV</string>
+    <string name="camera_power_test_data">Camera Power Test Data</string>
+    <string name="single_photo_power_test">📸 Single Photo Power Test</string>
+    <string name="multiple_photo_power_tests">📊 Multiple Photo Power Tests</string>
+    <string name="test_results">Test Results:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">Display Power Sweep</string>
+    <string name="quick_sweep">Fast Sweep</string>
+    <string name="full_sweep">Full Sweep</string>
+    <string name="run_levels">Run Levels</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">CPU Microbench</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">Network RSSI Sampling</string>
+    <string name="start_60s_sampling">Start 60s Sampling</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">Device Sleep Tracker</string>
+    
+    <!-- App Power Monitor -->
+    <string name="app_power_monitor">App Power Monitor</string>
+    <string name="start_monitoring">Start Monitoring</string>
+    <string name="stop_monitoring">Stop Monitoring</string>
+    <string name="app_power_consumption">App Power Consumption</string>
+    <string name="battery_impact_per_hour">Battery Impact: %1$s%%/hour</string>
+    <string name="usage_stats_permission_required">Usage Stats permission required</string>
+    <string name="no_app_data">No app power data available</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">Scan Device Health</string>
+    <string name="scanning_device">Scanning Device…</string>
+    <string name="scanning">Scanning</string>
+    <string name="amazing_streak">🔥 Amazing streak! You\'re a health champion!</string>
+    <string name="great_consistency">💪 Great consistency! Keep the momentum going!</string>
+    <string name="good_start">✅ Good start! Build your daily habit!</string>
+    <string name="ready_to_start">🚀 Ready to start your health journey?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 Location Access</string>
+    <string name="phone_info_access">📱 Phone Info Access</string>
+    <string name="network_usage_stats">📊 Network Usage Stats</string>
+    <string name="notification_permission_denied">Notification permission denied</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">Share Device Info</string>
+    <string name="share_with_app">Share with %1$s</string>
+    <string name="unable_to_share_file">Unable to share file: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">Update downloaded! Restarting…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">Power Consumption</string>
+    <string name="cd_refresh">Refresh</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_certificate">Certificate</string>
+    <string name="cd_ai_assistant">AI Assistant</string>
+    <string name="cd_send_info">Send Info</string>
+    <string name="cd_scan">Scan</string>
+    <string name="cd_scanning">Scanning</string>
+    <string name="cd_camera_power_test">Camera Power Test</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">Unable to share file: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">Open Settings</string>
+    <string name="close">Close</string>
+    <string name="allow">Allow</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="running_cpu_tests">Running CPU Tests…</string>
+    <string name="sampling_countdown">Sampling… %1$ds</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="simple">Simple</string>
+    <string name="advanced">Advanced</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="test">Test</string>
+    <string name="want_more_magic">Want More Magic? Tap Here</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">Monitoring started</string>
+    <string name="toast_permission_denied">Permission denied</string>
+    <string name="toast_monitoring_stopped">Monitoring stopped</string>
+    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
+    <string name="toast_error_opening_setting">Error opening setting: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">Watching over battery, speed &amp; more ⚙</string>
+    
+    <!-- AI Prompts (These are long and may need special handling) -->
+    <!-- Note: AI prompts are very long and context-dependent. 
+         Consider keeping them in code or separate resource files if needed -->
+    
+    <!-- Google Sign-In -->
+    <!-- OAuth Client ID is set from local_config.properties at build time via resValue -->
+    <string name="default_web_client_id">YOUR_OAUTH_CLIENT_ID</string>
+</resources>

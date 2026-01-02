@@ -1,0 +1,181 @@
+<resources>
+    <!-- French (Français) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">Surveillez votre appareil sur l\'écran d\'accueil : énergie, batterie, RAM, CPU, réseau, score de santé et série quotidienne</string>
+    
+    <!-- Common -->
+    <string name="loading">Chargement…</string>
+    <string name="refresh">Actualiser</string>
+    <string name="refresh_all_data">Actualiser toutes les données</string>
+    <string name="settings">Paramètres</string>
+    <string name="open_device_settings">Ouvrir les paramètres de l\'appareil</string>
+    <string name="cancel">Annuler</string>
+    <string name="continue_text">Continuer</string>
+    <string name="ok">OK</string>
+    <string name="got_it">Compris !</string>
+    <string name="send">Envoyer</string>
+    <string name="share">Partager</string>
+    <string name="menu">Menu</string>
+    <string name="open_menu">Ouvrir le menu</string>
+    <string name="open_menu_monitor_available">Ouvrir le menu • Moniteur en temps réel disponible</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">Options développeur</string>
+    <string name="open_developer_options">Ouvrir les options développeur</string>
+    
+    <!-- Certificate -->
+    <string name="cert">Cert</string>
+    <string name="certificate">Certificat</string>
+    <string name="generate_device_certificate">Générer un certificat d\'appareil</string>
+    <string name="loading_certificate_data">Chargement des données du certificat…</string>
+    <string name="can_device_get_certified">Votre appareil peut-il être certifié ?</string>
+    <string name="certificate_description">Obtenez un Certificat d\'Appareil viral avec une vraie valeur de revente et une note ! Entrez le prix d\'origine de votre appareil et la devise.</string>
+    <string name="original_price">Prix d\'Origine</string>
+    <string name="currency_hint">Devise (ex. USD, EUR)</string>
+    <string name="generate_my_device_certificate">Générer Mon Certificat d\'Appareil</string>
+    <string name="certificate_subtitle">Obtenez votre certificat officiel de téléphone et sa valeur de revente en quelques secondes—parfait pour partager ou vendre !</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">IA</string>
+    <string name="ai_assistant">Assistant IA</string>
+    <string name="open_ai_assistant">Ouvrir l\'assistant IA</string>
+    <string name="loading_ai_assistant">Chargement de l\'assistant IA…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">Informations de l\'Appareil</string>
+    <string name="network_info">Informations Réseau</string>
+    <string name="health">Santé</string>
+    <string name="power">Énergie</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">Consommation d\'Énergie</string>
+    <string name="component_breakdown">Répartition des Composants</string>
+    <string name="total_power_consumption">Consommation Totale d\'Énergie</string>
+    <string name="watts">W</string>
+    <string name="last_updated">Dernière mise à jour : %1$s</string>
+    <string name="loading_power_data">Chargement des données de consommation d\'énergie…</string>
+    <string name="tap_for_more_info">Appuyez pour plus d\'informations</string>
+    <string name="permission_required">Autorisation Requise</string>
+    <string name="grant_permission_description">Accordez l\'autorisation pour voir les données précises de consommation d\'énergie pour ce composant.</string>
+    <string name="grant_permission">Accorder l\'Autorisation</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">Statistiques d\'Énergie</string>
+    <string name="average">Moyenne</string>
+    <string name="peak">Pic</string>
+    <string name="samples">Échantillons</string>
+    <string name="trend">Tendance : %1$s</string>
+    <string name="efficiency_rating">Note d\'Efficacité</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">Test de Consommation de la Caméra</string>
+    <string name="camera_test_description">Mesure la quantité d\'énergie de batterie que votre téléphone utilise lors de la prise de photos</string>
+    <string name="camera_test_info">📷 Vous verrez un aperçu en direct de la caméra pendant que nous mesurons. La caméra s\'ouvre réellement et prend une vraie photo.</string>
+    <string name="camera_test_accuracy">📊 Nous prenons plusieurs mesures et les moyennons pour la précision. De petites différences entre les tests sont normales—la température et le niveau de batterie de votre téléphone peuvent affecter les résultats.</string>
+    <string name="camera_preview">Aperçu de la Caméra\n(Affichera le flux en direct pendant le test)</string>
+    <string name="preview_live_feed">L\'aperçu affiche le flux en direct de la caméra pendant chaque test</string>
+    <string name="testing">Test en cours…</string>
+    <string name="single_test">Test Unique</string>
+    <string name="five_tests">5 Tests</string>
+    <string name="all_test_results">Tous les Résultats de Tests (%1$d au total) :</string>
+    <string name="test_result_format">Test %1$d : %2$s (%3$dms)</string>
+    <string name="more_tests">… et %1$d de plus (voir CSV pour tout)</string>
+    <string name="total_tests">%1$d test%2$s au total</string>
+    <string name="view_csv">Voir CSV</string>
+    <string name="camera_power_test_data">Données de Test de Consommation de la Caméra</string>
+    <string name="single_photo_power_test">📸 Test de Consommation d\'une Photo Unique</string>
+    <string name="multiple_photo_power_tests">📊 Tests de Consommation de Plusieurs Photos</string>
+    <string name="test_results">Résultats des Tests :</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">Balayage d\'Énergie de l\'Écran</string>
+    <string name="quick_sweep">Balayage Rapide</string>
+    <string name="full_sweep">Balayage Complet</string>
+    <string name="run_levels">Exécuter les Niveaux</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">Microbenchmark CPU</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">Échantillonnage RSSI Réseau</string>
+    <string name="start_60s_sampling">Démarrer l\'Échantillonnage de 60s</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">Suivi du Sommeil de l\'Appareil</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">Scanner la Santé de l\'Appareil</string>
+    <string name="scanning_device">Analyse de l\'appareil…</string>
+    <string name="scanning">Analyse</string>
+    <string name="amazing_streak">🔥 Série incroyable ! Vous êtes un champion de la santé !</string>
+    <string name="great_consistency">💪 Excellente régularité ! Maintenez l\'élan !</string>
+    <string name="good_start">✅ Bon début ! Créez votre habitude quotidienne !</string>
+    <string name="ready_to_start">🚀 Prêt à commencer votre parcours de santé ?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 Accès à la Localisation</string>
+    <string name="phone_info_access">📱 Accès aux Informations du Téléphone</string>
+    <string name="network_usage_stats">📊 Statistiques d\'Utilisation du Réseau</string>
+    <string name="notification_permission_denied">Autorisation de notification refusée</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">Partager les Informations de l\'Appareil</string>
+    <string name="share_with_app">Partager avec %1$s</string>
+    <string name="unable_to_share_file">Impossible de partager le fichier : %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">Mise à jour téléchargée ! Redémarrage…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">Consommation d\'Énergie</string>
+    <string name="cd_refresh">Actualiser</string>
+    <string name="cd_settings">Paramètres</string>
+    <string name="cd_certificate">Certificat</string>
+    <string name="cd_ai_assistant">Assistant IA</string>
+    <string name="cd_send_info">Envoyer les Informations</string>
+    <string name="cd_scan">Scanner</string>
+    <string name="cd_scanning">Analyse</string>
+    <string name="cd_camera_power_test">Test de Consommation de la Caméra</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">Impossible de partager le fichier : %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">Langue</string>
+    <string name="select_language">Sélectionner la Langue</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">Ouvrir les Paramètres</string>
+    <string name="close">Fermer</string>
+    <string name="allow">Autoriser</string>
+    <string name="export_csv">Exporter CSV</string>
+    <string name="running_cpu_tests">Exécution des Tests CPU…</string>
+    <string name="sampling_countdown">Échantillonnage… %1$ds</string>
+    <string name="light">Clair</string>
+    <string name="dark">Sombre</string>
+    <string name="simple">Simple</string>
+    <string name="advanced">Avancé</string>
+    <string name="unavailable">Indisponible</string>
+    <string name="test">Test</string>
+    <string name="want_more_magic">Vous Voulez Plus de Magie ? Appuyez Ici</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">Surveillance démarrée</string>
+    <string name="toast_permission_denied">Autorisation refusée</string>
+    <string name="toast_monitoring_stopped">Surveillance arrêtée</string>
+    <string name="toast_copied_to_clipboard">Copié dans le presse-papiers</string>
+    <string name="toast_error_opening_setting">Erreur lors de l\'ouverture du paramètre: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">Surveillance de la batterie, vitesse et plus ⚙</string>
+</resources>

@@ -1,0 +1,182 @@
+<resources>
+    <!-- Turkish (Türkçe) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">Ana ekranda cihazınızı izleyin: güç, pil, RAM, CPU, ağ, sağlık puanı ve günlük seri</string>
+    
+    <!-- Common -->
+    <string name="loading">Yükleniyor…</string>
+    <string name="refresh">Yenile</string>
+    <string name="refresh_all_data">Tüm verileri yenile</string>
+    <string name="settings">Ayarlar</string>
+    <string name="open_device_settings">Cihaz ayarlarını aç</string>
+    <string name="cancel">İptal</string>
+    <string name="continue_text">Devam Et</string>
+    <string name="ok">Tamam</string>
+    <string name="got_it">Anladım!</string>
+    <string name="send">Gönder</string>
+    <string name="share">Paylaş</string>
+    <string name="menu">Menü</string>
+    <string name="open_menu">Menüyü aç</string>
+    <string name="open_menu_monitor_available">Menüyü aç • Gerçek zamanlı monitör mevcut</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">Geliştirici Seçenekleri</string>
+    <string name="open_developer_options">Geliştirici seçeneklerini aç</string>
+    
+    <!-- Certificate -->
+    <string name="cert">Sertifika</string>
+    <string name="certificate">Sertifika</string>
+    <string name="generate_device_certificate">Cihaz sertifikası oluştur</string>
+    <string name="loading_certificate_data">Sertifika verileri yükleniyor…</string>
+    <string name="can_device_get_certified">Cihazınız sertifikalandırılabilir mi?</string>
+    <string name="certificate_description">Gerçek yeniden satış değeri ve derecelendirme ile viral bir Cihaz Sertifikası alın! Cihazınızın orijinal fiyatını ve para birimini girin.</string>
+    <string name="original_price">Orijinal Fiyat</string>
+    <string name="currency_hint">Para Birimi (örn. USD, TRY)</string>
+    <string name="generate_my_device_certificate">Cihaz Sertifikamı Oluştur</string>
+    <string name="certificate_subtitle">Saniyeler içinde resmi telefon sertifikanızı ve yeniden satış değerini alın—paylaşmak veya satmak için mükemmel!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">Yapay Zeka</string>
+    <string name="ai_assistant">Yapay Zeka Asistanı</string>
+    <string name="open_ai_assistant">Yapay Zeka asistanını aç</string>
+    <string name="loading_ai_assistant">Yapay Zeka asistanı yükleniyor…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">Cihaz Bilgisi</string>
+    <string name="network_info">Ağ Bilgisi</string>
+    <string name="health">Sağlık</string>
+    <string name="power">Güç</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">Güç Tüketimi</string>
+    <string name="component_breakdown">Bileşen Detayı</string>
+    <string name="total_power_consumption">Toplam Güç Tüketimi</string>
+    <string name="watts">W</string>
+    <string name="last_updated">Son güncelleme: %1$s</string>
+    <string name="loading_power_data">Güç tüketimi verileri yükleniyor…</string>
+    <string name="tap_for_more_info">Daha fazla bilgi için dokunun</string>
+    <string name="permission_required">İzin Gerekli</string>
+    <string name="grant_permission_description">Bu bileşen için doğru güç tüketimi verilerini görmek için izin verin.</string>
+    <string name="grant_permission">İzin Ver</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">Güç İstatistikleri</string>
+    <string name="average">Ortalama</string>
+    <string name="peak">Zirve</string>
+    <string name="samples">Örnekler</string>
+    <string name="trend">Eğilim: %1$s</string>
+    <string name="efficiency_rating">Verimlilik Değerlendirmesi</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">Kamera Güç Testi</string>
+    <string name="camera_test_description">Telefonunuzun fotoğraf çekerken ne kadar pil gücü kullandığını ölçer</string>
+    <string name="camera_test_info">📷 Ölçerken canlı kamera önizlemesi göreceksiniz. Kamera gerçekten açılır ve gerçek bir fotoğraf çeker.</string>
+    <string name="camera_test_accuracy">📊 Doğruluk için birden fazla ölçüm yapıyoruz ve bunları ortalamasını alıyoruz. Testler arasındaki küçük farklar normaldir—telefonunuzun sıcaklığı ve pil seviyesi sonuçları etkileyebilir.</string>
+    <string name="camera_preview">Kamera Önizlemesi\n(Test sırasında canlı akış gösterecek)</string>
+    <string name="preview_live_feed">Önizleme her test sırasında canlı kamera akışını gösterir</string>
+    <string name="testing">Test ediliyor…</string>
+    <string name="single_test">Tek Test</string>
+    <string name="five_tests">5 Test</string>
+    <string name="all_test_results">Tüm Test Sonuçları (toplam %1$d):</string>
+    <string name="test_result_format">Test %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… ve %1$d tane daha (hepsini görmek için CSV\'yi görüntüle)</string>
+    <string name="total_tests">Toplam %1$d test%2$s</string>
+    <string name="view_csv">CSV\'yi Görüntüle</string>
+    <string name="camera_power_test_data">Kamera Güç Testi Verileri</string>
+    <string name="single_photo_power_test">📸 Tek Fotoğraf Güç Testi</string>
+    <string name="multiple_photo_power_tests">📊 Çoklu Fotoğraf Güç Testleri</string>
+    <string name="test_results">Test Sonuçları:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">Ekran Güç Taraması</string>
+    <string name="quick_sweep">Hızlı Tarama</string>
+    <string name="full_sweep">Tam Tarama</string>
+    <string name="run_levels">Seviyeleri Çalıştır</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">CPU Mikro Kıyaslama</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">Ağ RSSI Örnekleme</string>
+    <string name="start_60s_sampling">60 Saniyelik Örneklemeyi Başlat</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">Cihaz Uyku Takipçisi</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">Cihaz Sağlığını Tara</string>
+    <string name="scanning_device">Cihaz taranıyor…</string>
+    <string name="scanning">Taranıyor</string>
+    <string name="amazing_streak">🔥 İnanılmaz seri! Sen bir sağlık şampiyonusun!</string>
+    <string name="great_consistency">💪 Harika tutarlılık! Momentumu sürdür!</string>
+    <string name="good_start">✅ İyi başlangıç! Günlük alışkanlığını oluştur!</string>
+    <string name="ready_to_start">🚀 Sağlık yolculuğuna başlamaya hazır mısın?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 Konum Erişimi</string>
+    <string name="phone_info_access">📱 Telefon Bilgisi Erişimi</string>
+    <string name="network_usage_stats">📊 Ağ Kullanım İstatistikleri</string>
+    <string name="notification_permission_denied">Bildirim izni reddedildi</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">Cihaz Bilgisini Paylaş</string>
+    <string name="share_with_app">%1$s ile paylaş</string>
+    <string name="unable_to_share_file">Dosya paylaşılamıyor: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">Güncelleme indirildi! Yeniden başlatılıyor…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">Güç Tüketimi</string>
+    <string name="cd_refresh">Yenile</string>
+    <string name="cd_settings">Ayarlar</string>
+    <string name="cd_certificate">Sertifika</string>
+    <string name="cd_ai_assistant">Yapay Zeka Asistanı</string>
+    <string name="cd_send_info">Bilgi Gönder</string>
+    <string name="cd_scan">Tara</string>
+    <string name="cd_scanning">Taranıyor</string>
+    <string name="cd_camera_power_test">Kamera Güç Testi</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">Dosya paylaşılamıyor: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">Dil</string>
+    <string name="select_language">Dil Seç</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">Ayarları Aç</string>
+    <string name="close">Kapat</string>
+    <string name="allow">İzin Ver</string>
+    <string name="export_csv">CSV Dışa Aktar</string>
+    <string name="running_cpu_tests">CPU Testleri Çalışıyor…</string>
+    <string name="sampling_countdown">Örnekleme… %1$ds</string>
+    <string name="light">Açık</string>
+    <string name="dark">Koyu</string>
+    <string name="simple">Basit</string>
+    <string name="advanced">Gelişmiş</string>
+    <string name="unavailable">Kullanılamıyor</string>
+    <string name="test">Test</string>
+    <string name="want_more_magic">Daha Fazla Sihir İster misiniz? Buraya Dokunun</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">İzleme başlatıldı</string>
+    <string name="toast_permission_denied">İzin reddedildi</string>
+    <string name="toast_monitoring_stopped">İzleme durduruldu</string>
+    <string name="toast_copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="toast_error_opening_setting">Ayar açılırken hata: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">Pil, hız ve daha fazlasını izliyor ⚙</string>
+</resources>
+

@@ -1,0 +1,182 @@
+<resources>
+    <!-- Indonesian (Bahasa Indonesia) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">Pantau perangkat Anda di layar beranda: daya, baterai, RAM, CPU, jaringan, skor kesehatan, dan rangkaian harian</string>
+    
+    <!-- Common -->
+    <string name="loading">Memuat…</string>
+    <string name="refresh">Muat Ulang</string>
+    <string name="refresh_all_data">Muat ulang semua data</string>
+    <string name="settings">Pengaturan</string>
+    <string name="open_device_settings">Buka pengaturan perangkat</string>
+    <string name="cancel">Batal</string>
+    <string name="continue_text">Lanjutkan</string>
+    <string name="ok">OK</string>
+    <string name="got_it">Mengerti!</string>
+    <string name="send">Kirim</string>
+    <string name="share">Bagikan</string>
+    <string name="menu">Menu</string>
+    <string name="open_menu">Buka menu</string>
+    <string name="open_menu_monitor_available">Buka menu • Monitor waktu nyata tersedia</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">Opsi Pengembang</string>
+    <string name="open_developer_options">Buka opsi pengembang</string>
+    
+    <!-- Certificate -->
+    <string name="cert">Sertifikat</string>
+    <string name="certificate">Sertifikat</string>
+    <string name="generate_device_certificate">Buat sertifikat perangkat</string>
+    <string name="loading_certificate_data">Memuat data sertifikat…</string>
+    <string name="can_device_get_certified">Apakah perangkat Anda bisa disertifikasi?</string>
+    <string name="certificate_description">Dapatkan Sertifikat Perangkat viral dengan nilai jual kembali nyata dan peringkat! Masukkan harga asli dan mata uang perangkat Anda.</string>
+    <string name="original_price">Harga Asli</string>
+    <string name="currency_hint">Mata Uang (mis. USD, IDR)</string>
+    <string name="generate_my_device_certificate">Buat Sertifikat Perangkat Saya</string>
+    <string name="certificate_subtitle">Dapatkan sertifikat ponsel resmi dan nilai jual kembali Anda dalam hitungan detik—sempurna untuk dibagikan atau dijual!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">AI</string>
+    <string name="ai_assistant">Asisten AI</string>
+    <string name="open_ai_assistant">Buka asisten AI</string>
+    <string name="loading_ai_assistant">Memuat asisten AI…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">Informasi Perangkat</string>
+    <string name="network_info">Informasi Jaringan</string>
+    <string name="health">Kesehatan</string>
+    <string name="power">Daya</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">Konsumsi Daya</string>
+    <string name="component_breakdown">Rincian Komponen</string>
+    <string name="total_power_consumption">Total Konsumsi Daya</string>
+    <string name="watts">W</string>
+    <string name="last_updated">Terakhir diperbarui: %1$s</string>
+    <string name="loading_power_data">Memuat data konsumsi daya…</string>
+    <string name="tap_for_more_info">Ketuk untuk info lebih lanjut</string>
+    <string name="permission_required">Izin Diperlukan</string>
+    <string name="grant_permission_description">Berikan izin untuk melihat data konsumsi daya yang akurat untuk komponen ini.</string>
+    <string name="grant_permission">Berikan Izin</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">Statistik Daya</string>
+    <string name="average">Rata-rata</string>
+    <string name="peak">Puncak</string>
+    <string name="samples">Sampel</string>
+    <string name="trend">Tren: %1$s</string>
+    <string name="efficiency_rating">Peringkat Efisiensi</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">Tes Daya Kamera</string>
+    <string name="camera_test_description">Mengukur berapa banyak daya baterai yang digunakan ponsel Anda saat mengambil foto</string>
+    <string name="camera_test_info">📷 Anda akan melihat pratinjau kamera langsung saat kami mengukur. Kamera benar-benar terbuka dan mengambil foto asli.</string>
+    <string name="camera_test_accuracy">📊 Kami melakukan beberapa pengukuran dan merata-ratakannya untuk akurasi. Perbedaan kecil antar tes adalah normal—suhu dan tingkat baterai ponsel Anda dapat mempengaruhi hasil.</string>
+    <string name="camera_preview">Pratinjau Kamera\n(Akan menampilkan feed langsung selama tes)</string>
+    <string name="preview_live_feed">Pratinjau menampilkan feed kamera langsung selama setiap tes</string>
+    <string name="testing">Menguji…</string>
+    <string name="single_test">Tes Tunggal</string>
+    <string name="five_tests">5 Tes</string>
+    <string name="all_test_results">Semua Hasil Tes (total %1$d):</string>
+    <string name="test_result_format">Tes %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… dan %1$d lagi (lihat CSV untuk semua)</string>
+    <string name="total_tests">%1$d tes%2$s total</string>
+    <string name="view_csv">Lihat CSV</string>
+    <string name="camera_power_test_data">Data Tes Daya Kamera</string>
+    <string name="single_photo_power_test">📸 Tes Daya Foto Tunggal</string>
+    <string name="multiple_photo_power_tests">📊 Tes Daya Beberapa Foto</string>
+    <string name="test_results">Hasil Tes:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">Pemindaian Daya Layar</string>
+    <string name="quick_sweep">Pemindaian Cepat</string>
+    <string name="full_sweep">Pemindaian Penuh</string>
+    <string name="run_levels">Jalankan Level</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">Mikrobenchmark CPU</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">Pengambilan Sampel RSSI Jaringan</string>
+    <string name="start_60s_sampling">Mulai Pengambilan Sampel 60s</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">Pelacak Tidur Perangkat</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">Pindai Kesehatan Perangkat</string>
+    <string name="scanning_device">Memindai perangkat…</string>
+    <string name="scanning">Memindai</string>
+    <string name="amazing_streak">🔥 Rangkaian luar biasa! Anda adalah juara kesehatan!</string>
+    <string name="great_consistency">💪 Konsistensi hebat! Pertahankan momentum!</string>
+    <string name="good_start">✅ Mulai yang baik! Bangun kebiasaan harian Anda!</string>
+    <string name="ready_to_start">🚀 Siap memulai perjalanan kesehatan Anda?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 Akses Lokasi</string>
+    <string name="phone_info_access">📱 Akses Informasi Telepon</string>
+    <string name="network_usage_stats">📊 Statistik Penggunaan Jaringan</string>
+    <string name="notification_permission_denied">Izin notifikasi ditolak</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">Bagikan Informasi Perangkat</string>
+    <string name="share_with_app">Bagikan dengan %1$s</string>
+    <string name="unable_to_share_file">Tidak dapat membagikan file: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">Pembaruan diunduh! Memulai ulang…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">Konsumsi Daya</string>
+    <string name="cd_refresh">Muat Ulang</string>
+    <string name="cd_settings">Pengaturan</string>
+    <string name="cd_certificate">Sertifikat</string>
+    <string name="cd_ai_assistant">Asisten AI</string>
+    <string name="cd_send_info">Kirim Informasi</string>
+    <string name="cd_scan">Pindai</string>
+    <string name="cd_scanning">Memindai</string>
+    <string name="cd_camera_power_test">Tes Daya Kamera</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">Tidak dapat membagikan file: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">Bahasa</string>
+    <string name="select_language">Pilih Bahasa</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">Buka Pengaturan</string>
+    <string name="close">Tutup</string>
+    <string name="allow">Izinkan</string>
+    <string name="export_csv">Ekspor CSV</string>
+    <string name="running_cpu_tests">Menjalankan Tes CPU…</string>
+    <string name="sampling_countdown">Pengambilan Sampel… %1$ds</string>
+    <string name="light">Terang</string>
+    <string name="dark">Gelap</string>
+    <string name="simple">Sederhana</string>
+    <string name="advanced">Lanjutan</string>
+    <string name="unavailable">Tidak Tersedia</string>
+    <string name="test">Tes</string>
+    <string name="want_more_magic">Ingin Lebih Banyak Sihir? Ketuk Di Sini</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">Pemantauan dimulai</string>
+    <string name="toast_permission_denied">Izin ditolak</string>
+    <string name="toast_monitoring_stopped">Pemantauan dihentikan</string>
+    <string name="toast_copied_to_clipboard">Disalin ke clipboard</string>
+    <string name="toast_error_opening_setting">Kesalahan membuka pengaturan: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">Memantau baterai, kecepatan, dan lainnya ⚙</string>
+</resources>
+

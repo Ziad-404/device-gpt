@@ -1,0 +1,182 @@
+<resources>
+    <!-- Arabic (العربية) - Complete Translation -->
+    <!-- Note: Arabic is RTL (Right-to-Left) -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">راقب جهازك على الشاشة الرئيسية: الطاقة، البطارية، RAM، CPU، الشبكة، درجة الصحة، والسلسلة اليومية</string>
+    
+    <!-- Common -->
+    <string name="loading">جاري التحميل…</string>
+    <string name="refresh">تحديث</string>
+    <string name="refresh_all_data">تحديث جميع البيانات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="open_device_settings">فتح إعدادات الجهاز</string>
+    <string name="cancel">إلغاء</string>
+    <string name="continue_text">متابعة</string>
+    <string name="ok">موافق</string>
+    <string name="got_it">فهمت!</string>
+    <string name="send">إرسال</string>
+    <string name="share">مشاركة</string>
+    <string name="menu">القائمة</string>
+    <string name="open_menu">فتح القائمة</string>
+    <string name="open_menu_monitor_available">فتح القائمة • المراقب الفوري متاح</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">خيارات المطور</string>
+    <string name="open_developer_options">فتح خيارات المطور</string>
+    
+    <!-- Certificate -->
+    <string name="cert">شهادة</string>
+    <string name="certificate">شهادة</string>
+    <string name="generate_device_certificate">إنشاء شهادة الجهاز</string>
+    <string name="loading_certificate_data">جاري تحميل بيانات الشهادة…</string>
+    <string name="can_device_get_certified">هل يمكن لجهازك الحصول على شهادة؟</string>
+    <string name="certificate_description">احصل على شهادة جهاز فيروسية بقيمة إعادة بيع حقيقية وتقييم! أدخل السعر الأصلي لجهازك والعملة.</string>
+    <string name="original_price">السعر الأصلي</string>
+    <string name="currency_hint">العملة (مثل USD، SAR)</string>
+    <string name="generate_my_device_certificate">إنشاء شهادة جهازي</string>
+    <string name="certificate_subtitle">احصل على شهادة هاتفك الرسمية وقيمة إعادة البيع في ثوانٍ—مثالي للمشاركة أو البيع!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">ذكاء اصطناعي</string>
+    <string name="ai_assistant">مساعد الذكاء الاصطناعي</string>
+    <string name="open_ai_assistant">فتح مساعد الذكاء الاصطناعي</string>
+    <string name="loading_ai_assistant">جاري تحميل مساعد الذكاء الاصطناعي…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">معلومات الجهاز</string>
+    <string name="network_info">معلومات الشبكة</string>
+    <string name="health">الصحة</string>
+    <string name="power">الطاقة</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">استهلاك الطاقة</string>
+    <string name="component_breakdown">تفصيل المكونات</string>
+    <string name="total_power_consumption">إجمالي استهلاك الطاقة</string>
+    <string name="watts">واط</string>
+    <string name="last_updated">آخر تحديث: %1$s</string>
+    <string name="loading_power_data">جاري تحميل بيانات استهلاك الطاقة…</string>
+    <string name="tap_for_more_info">اضغط للمزيد من المعلومات</string>
+    <string name="permission_required">إذن مطلوب</string>
+    <string name="grant_permission_description">امنح الإذن لرؤية بيانات استهلاك الطاقة الدقيقة لهذا المكون.</string>
+    <string name="grant_permission">منح الإذن</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">إحصائيات الطاقة</string>
+    <string name="average">المتوسط</string>
+    <string name="peak">الذروة</string>
+    <string name="samples">العينات</string>
+    <string name="trend">الاتجاه: %1$s</string>
+    <string name="efficiency_rating">تقييم الكفاءة</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">اختبار طاقة الكاميرا</string>
+    <string name="camera_test_description">يقيس مقدار طاقة البطارية التي يستخدمها هاتفك عند التقاط الصور</string>
+    <string name="camera_test_info">📷 سترى معاينة مباشرة للكاميرا أثناء القياس. تفتح الكاميرا فعليًا وتلتقط صورة حقيقية.</string>
+    <string name="camera_test_accuracy">📊 نأخذ قياسات متعددة ونحسب متوسطها للدقة. الاختلافات الصغيرة بين الاختبارات طبيعية—يمكن أن تؤثر درجة حرارة هاتفك ومستوى البطارية على النتائج.</string>
+    <string name="camera_preview">معاينة الكاميرا\n(ستعرض البث المباشر أثناء الاختبار)</string>
+    <string name="preview_live_feed">تعرض المعاينة البث المباشر للكاميرا أثناء كل اختبار</string>
+    <string name="testing">جاري الاختبار…</string>
+    <string name="single_test">اختبار واحد</string>
+    <string name="five_tests">5 اختبارات</string>
+    <string name="all_test_results">جميع نتائج الاختبارات (%1$d إجمالي):</string>
+    <string name="test_result_format">الاختبار %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… و%1$d المزيد (عرض CSV للكل)</string>
+    <string name="total_tests">%1$d اختبار%2$s إجمالي</string>
+    <string name="view_csv">عرض CSV</string>
+    <string name="camera_power_test_data">بيانات اختبار طاقة الكاميرا</string>
+    <string name="single_photo_power_test">📸 اختبار طاقة صورة واحدة</string>
+    <string name="multiple_photo_power_tests">📊 اختبارات طاقة صور متعددة</string>
+    <string name="test_results">نتائج الاختبارات:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">مسح طاقة الشاشة</string>
+    <string name="quick_sweep">مسح سريع</string>
+    <string name="full_sweep">مسح كامل</string>
+    <string name="run_levels">تشغيل المستويات</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">معيار CPU الدقيق</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">أخذ عينات RSSI للشبكة</string>
+    <string name="start_60s_sampling">بدء أخذ عينات 60 ثانية</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">متتبع نوم الجهاز</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">فحص صحة الجهاز</string>
+    <string name="scanning_device">جاري فحص الجهاز…</string>
+    <string name="scanning">جاري الفحص</string>
+    <string name="amazing_streak">🔥 سلسلة مذهلة! أنت بطل الصحة!</string>
+    <string name="great_consistency">💪 اتساق رائع! حافظ على الزخم!</string>
+    <string name="good_start">✅ بداية جيدة! ابني عادتك اليومية!</string>
+    <string name="ready_to_start">🚀 مستعد لبدء رحلتك الصحية؟</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 الوصول إلى الموقع</string>
+    <string name="phone_info_access">📱 الوصول إلى معلومات الهاتف</string>
+    <string name="network_usage_stats">📊 إحصائيات استخدام الشبكة</string>
+    <string name="notification_permission_denied">تم رفض إذن الإشعارات</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">مشاركة معلومات الجهاز</string>
+    <string name="share_with_app">مشاركة مع %1$s</string>
+    <string name="unable_to_share_file">تعذر مشاركة الملف: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">تم تنزيل التحديث! جاري إعادة التشغيل…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">استهلاك الطاقة</string>
+    <string name="cd_refresh">تحديث</string>
+    <string name="cd_settings">الإعدادات</string>
+    <string name="cd_certificate">شهادة</string>
+    <string name="cd_ai_assistant">مساعد الذكاء الاصطناعي</string>
+    <string name="cd_send_info">إرسال المعلومات</string>
+    <string name="cd_scan">فحص</string>
+    <string name="cd_scanning">جاري الفحص</string>
+    <string name="cd_camera_power_test">اختبار طاقة الكاميرا</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">تعذر مشاركة الملف: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">اللغة</string>
+    <string name="select_language">اختر اللغة</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="close">إغلاق</string>
+    <string name="allow">السماح</string>
+    <string name="export_csv">تصدير CSV</string>
+    <string name="running_cpu_tests">تشغيل اختبارات CPU…</string>
+    <string name="sampling_countdown">أخذ العينات… %1$ds</string>
+    <string name="light">فاتح</string>
+    <string name="dark">داكن</string>
+    <string name="simple">بسيط</string>
+    <string name="advanced">متقدم</string>
+    <string name="unavailable">غير متاح</string>
+    <string name="test">اختبار</string>
+    <string name="want_more_magic">تريد المزيد من السحر؟ اضغط هنا</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">بدأت المراقبة</string>
+    <string name="toast_permission_denied">تم رفض الإذن</string>
+    <string name="toast_monitoring_stopped">توقفت المراقبة</string>
+    <string name="toast_copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="toast_error_opening_setting">خطأ في فتح الإعداد: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">يراقب البطارية والسرعة والمزيد ⚙</string>
+</resources>

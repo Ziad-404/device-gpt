@@ -1,0 +1,182 @@
+<resources>
+    <!-- Korean (한국어) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">홈 화면에서 기기 모니터링: 전원, 배터리, RAM, CPU, 네트워크, 건강 점수 및 일일 연속 기록</string>
+    
+    <!-- Common -->
+    <string name="loading">로딩 중…</string>
+    <string name="refresh">새로고침</string>
+    <string name="refresh_all_data">모든 데이터 새로고침</string>
+    <string name="settings">설정</string>
+    <string name="open_device_settings">기기 설정 열기</string>
+    <string name="cancel">취소</string>
+    <string name="continue_text">계속</string>
+    <string name="ok">확인</string>
+    <string name="got_it">알겠습니다!</string>
+    <string name="send">보내기</string>
+    <string name="share">공유</string>
+    <string name="menu">메뉴</string>
+    <string name="open_menu">메뉴 열기</string>
+    <string name="open_menu_monitor_available">메뉴 열기 • 실시간 모니터 사용 가능</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">개발자 옵션</string>
+    <string name="open_developer_options">개발자 옵션 열기</string>
+    
+    <!-- Certificate -->
+    <string name="cert">인증</string>
+    <string name="certificate">인증서</string>
+    <string name="generate_device_certificate">기기 인증서 생성</string>
+    <string name="loading_certificate_data">인증서 데이터 로딩 중…</string>
+    <string name="can_device_get_certified">기기를 인증받을 수 있나요?</string>
+    <string name="certificate_description">실제 재판매 가치와 등급이 있는 바이럴 기기 인증서를 받으세요! 기기의 원래 가격과 통화를 입력하세요.</string>
+    <string name="original_price">원래 가격</string>
+    <string name="currency_hint">통화 (예: USD, KRW)</string>
+    <string name="generate_my_device_certificate">내 기기 인증서 생성</string>
+    <string name="certificate_subtitle">몇 초 만에 공식 전화 인증서와 재판매 가치를 받으세요—공유하거나 판매하기에 완벽합니다!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">AI</string>
+    <string name="ai_assistant">AI 어시스턴트</string>
+    <string name="open_ai_assistant">AI 어시스턴트 열기</string>
+    <string name="loading_ai_assistant">AI 어시스턴트 로딩 중…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">기기 정보</string>
+    <string name="network_info">네트워크 정보</string>
+    <string name="health">건강</string>
+    <string name="power">전원</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">전력 소비</string>
+    <string name="component_breakdown">구성 요소 세부 정보</string>
+    <string name="total_power_consumption">총 전력 소비</string>
+    <string name="watts">W</string>
+    <string name="last_updated">마지막 업데이트: %1$s</string>
+    <string name="loading_power_data">전력 소비 데이터 로딩 중…</string>
+    <string name="tap_for_more_info">더 많은 정보를 보려면 탭하세요</string>
+    <string name="permission_required">권한 필요</string>
+    <string name="grant_permission_description">이 구성 요소에 대한 정확한 전력 소비 데이터를 보려면 권한을 부여하세요.</string>
+    <string name="grant_permission">권한 부여</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">전력 통계</string>
+    <string name="average">평균</string>
+    <string name="peak">피크</string>
+    <string name="samples">샘플</string>
+    <string name="trend">추세: %1$s</string>
+    <string name="efficiency_rating">효율 등급</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">카메라 전력 테스트</string>
+    <string name="camera_test_description">사진을 찍을 때 전화기가 사용하는 배터리 전력량을 측정합니다</string>
+    <string name="camera_test_info">📷 측정하는 동안 라이브 카메라 미리보기가 표시됩니다. 카메라가 실제로 열리고 실제 사진을 촬영합니다.</string>
+    <string name="camera_test_accuracy">📊 정확도를 위해 여러 측정을 수행하고 평균을 냅니다. 테스트 간의 작은 차이는 정상입니다—전화기의 온도와 배터리 수준이 결과에 영향을 줄 수 있습니다.</string>
+    <string name="camera_preview">카메라 미리보기\n(테스트 중 라이브 피드를 표시)</string>
+    <string name="preview_live_feed">미리보기는 각 테스트 중 라이브 카메라 피드를 표시합니다</string>
+    <string name="testing">테스트 중…</string>
+    <string name="single_test">단일 테스트</string>
+    <string name="five_tests">5회 테스트</string>
+    <string name="all_test_results">모든 테스트 결과 (총 %1$d개):</string>
+    <string name="test_result_format">테스트 %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… 그리고 %1$d개 더 (모두 보려면 CSV 보기)</string>
+    <string name="total_tests">총 %1$d개 테스트%2$s</string>
+    <string name="view_csv">CSV 보기</string>
+    <string name="camera_power_test_data">카메라 전력 테스트 데이터</string>
+    <string name="single_photo_power_test">📸 단일 사진 전력 테스트</string>
+    <string name="multiple_photo_power_tests">📊 여러 사진 전력 테스트</string>
+    <string name="test_results">테스트 결과:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">디스플레이 전력 스위프</string>
+    <string name="quick_sweep">빠른 스위프</string>
+    <string name="full_sweep">전체 스위프</string>
+    <string name="run_levels">레벨 실행</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">CPU 마이크로벤치마크</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">네트워크 RSSI 샘플링</string>
+    <string name="start_60s_sampling">60초 샘플링 시작</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">기기 수면 추적기</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">기기 건강 스캔</string>
+    <string name="scanning_device">기기 스캔 중…</string>
+    <string name="scanning">스캔 중</string>
+    <string name="amazing_streak">🔥 놀라운 연속 기록! 당신은 건강 챔피언입니다!</string>
+    <string name="great_consistency">💪 훌륭한 일관성! 추진력을 유지하세요!</string>
+    <string name="good_start">✅ 좋은 시작! 일일 습관을 만드세요!</string>
+    <string name="ready_to_start">🚀 건강 여정을 시작할 준비가 되셨나요?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 위치 액세스</string>
+    <string name="phone_info_access">📱 전화 정보 액세스</string>
+    <string name="network_usage_stats">📊 네트워크 사용 통계</string>
+    <string name="notification_permission_denied">알림 권한이 거부되었습니다</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">기기 정보 공유</string>
+    <string name="share_with_app">%1$s와 공유</string>
+    <string name="unable_to_share_file">파일을 공유할 수 없습니다: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">업데이트 다운로드 완료! 다시 시작 중…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">전력 소비</string>
+    <string name="cd_refresh">새로고침</string>
+    <string name="cd_settings">설정</string>
+    <string name="cd_certificate">인증서</string>
+    <string name="cd_ai_assistant">AI 어시스턴트</string>
+    <string name="cd_send_info">정보 보내기</string>
+    <string name="cd_scan">스캔</string>
+    <string name="cd_scanning">스캔 중</string>
+    <string name="cd_camera_power_test">카메라 전력 테스트</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">파일을 공유할 수 없습니다: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">언어</string>
+    <string name="select_language">언어 선택</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">설정 열기</string>
+    <string name="close">닫기</string>
+    <string name="allow">허용</string>
+    <string name="export_csv">CSV 내보내기</string>
+    <string name="running_cpu_tests">CPU 테스트 실행 중…</string>
+    <string name="sampling_countdown">샘플링 중… %1$ds</string>
+    <string name="light">라이트</string>
+    <string name="dark">다크</string>
+    <string name="simple">간단</string>
+    <string name="advanced">고급</string>
+    <string name="unavailable">사용 불가</string>
+    <string name="test">테스트</string>
+    <string name="want_more_magic">더 많은 마법을 원하시나요? 여기를 탭하세요</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">모니터링 시작됨</string>
+    <string name="toast_permission_denied">권한 거부됨</string>
+    <string name="toast_monitoring_stopped">모니터링 중지됨</string>
+    <string name="toast_copied_to_clipboard">클립보드에 복사됨</string>
+    <string name="toast_error_opening_setting">설정 열기 오류: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">배터리, 속도 등을 모니터링 중 ⚙</string>
+</resources>
+

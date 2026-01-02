@@ -1,0 +1,181 @@
+<resources>
+    <!-- Bengali (বাংলা) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">হোম স্ক্রিনে আপনার ডিভাইস মনিটর করুন: পাওয়ার, ব্যাটারি, RAM, CPU, নেটওয়ার্ক, স্বাস্থ্য স্কোর এবং দৈনন্দিন স্ট্রিক</string>
+    
+    <!-- Common -->
+    <string name="loading">লোড হচ্ছে…</string>
+    <string name="refresh">রিফ্রেশ</string>
+    <string name="refresh_all_data">সব ডেটা রিফ্রেশ করুন</string>
+    <string name="settings">সেটিংস</string>
+    <string name="open_device_settings">ডিভাইস সেটিংস খুলুন</string>
+    <string name="cancel">বাতিল</string>
+    <string name="continue_text">চালিয়ে যান</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="got_it">বুঝেছি!</string>
+    <string name="send">পাঠান</string>
+    <string name="share">শেয়ার করুন</string>
+    <string name="menu">মেনু</string>
+    <string name="open_menu">মেনু খুলুন</string>
+    <string name="open_menu_monitor_available">মেনু খুলুন • রিয়েলটাইম মনিটর উপলব্ধ</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">ডেভেলপার অপশন</string>
+    <string name="open_developer_options">ডেভেলপার অপশন খুলুন</string>
+    
+    <!-- Certificate -->
+    <string name="cert">সার্ট</string>
+    <string name="certificate">সার্টিফিকেট</string>
+    <string name="generate_device_certificate">ডিভাইস সার্টিফিকেট তৈরি করুন</string>
+    <string name="loading_certificate_data">সার্টিফিকেট ডেটা লোড হচ্ছে…</string>
+    <string name="can_device_get_certified">আপনার ডিভাইস সার্টিফাইড হতে পারে?</string>
+    <string name="certificate_description">রিয়েল রিসেল মান এবং রেটিং সহ একটি ভাইরাল ডিভাইস সার্টিফিকেট পান! আপনার ডিভাইসের মূল মূল্য এবং মুদ্রা লিখুন।</string>
+    <string name="original_price">মূল মূল্য</string>
+    <string name="currency_hint">মুদ্রা (যেমন USD, BDT)</string>
+    <string name="generate_my_device_certificate">আমার ডিভাইস সার্টিফিকেট তৈরি করুন</string>
+    <string name="certificate_subtitle">সেকেন্ডের মধ্যে আপনার অফিসিয়াল ফোন সার্টিফিকেট এবং রিসেল মান পান—শেয়ার বা বিক্রির জন্য পারফেক্ট!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">AI</string>
+    <string name="ai_assistant">AI সহায়ক</string>
+    <string name="open_ai_assistant">AI সহায়ক খুলুন</string>
+    <string name="loading_ai_assistant">AI সহায়ক লোড হচ্ছে…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">ডিভাইস তথ্য</string>
+    <string name="network_info">নেটওয়ার্ক তথ্য</string>
+    <string name="health">স্বাস্থ্য</string>
+    <string name="power">পাওয়ার</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">পাওয়ার খরচ</string>
+    <string name="component_breakdown">কম্পোনেন্ট ব্রেকডাউন</string>
+    <string name="total_power_consumption">মোট পাওয়ার খরচ</string>
+    <string name="watts">W</string>
+    <string name="last_updated">সর্বশেষ আপডেট: %1$s</string>
+    <string name="loading_power_data">পাওয়ার খরচ ডেটা লোড হচ্ছে…</string>
+    <string name="tap_for_more_info">আরও তথ্যের জন্য ট্যাপ করুন</string>
+    <string name="permission_required">অনুমতি প্রয়োজন</string>
+    <string name="grant_permission_description">এই কম্পোনেন্টের জন্য সঠিক পাওয়ার খরচ ডেটা দেখতে অনুমতি দিন।</string>
+    <string name="grant_permission">অনুমতি দিন</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">পাওয়ার পরিসংখ্যান</string>
+    <string name="average">গড়</string>
+    <string name="peak">পিক</string>
+    <string name="samples">নমুনা</string>
+    <string name="trend">ট্রেন্ড: %1$s</string>
+    <string name="efficiency_rating">দক্ষতা রেটিং</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">ক্যামেরা পাওয়ার টেস্ট</string>
+    <string name="camera_test_description">আপনার ফোন ফটো তোলার সময় কতটা ব্যাটারি পাওয়ার ব্যবহার করে তা পরিমাপ করে</string>
+    <string name="camera_test_info">📷 আমরা পরিমাপ করার সময় আপনি একটি লাইভ ক্যামেরা প্রিভিউ দেখবেন। ক্যামেরা আসলে খোলে এবং একটি আসল ফটো তোলে।</string>
+    <string name="camera_test_accuracy">📊 আমরা নির্ভুলতার জন্য একাধিক পরিমাপ নিই এবং তাদের গড় করি। পরীক্ষার মধ্যে ছোট পার্থক্য স্বাভাবিক - আপনার ফোনের তাপমাত্রা এবং ব্যাটারি স্তর ফলাফলকে প্রভাবিত করতে পারে।</string>
+    <string name="camera_preview">ক্যামেরা প্রিভিউ\n(পরীক্ষার সময় লাইভ ফিড দেখাবে)</string>
+    <string name="preview_live_feed">প্রিভিউ প্রতিটি পরীক্ষার সময় লাইভ ক্যামেরা ফিড দেখায়</string>
+    <string name="testing">পরীক্ষা করা হচ্ছে…</string>
+    <string name="single_test">একক পরীক্ষা</string>
+    <string name="five_tests">৫টি পরীক্ষা</string>
+    <string name="all_test_results">সব পরীক্ষার ফলাফল (%1$d মোট):</string>
+    <string name="test_result_format">পরীক্ষা %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… এবং আরও %1$d (সব দেখতে CSV দেখুন)</string>
+    <string name="total_tests">%1$d পরীক্ষা%2$s মোট</string>
+    <string name="view_csv">CSV দেখুন</string>
+    <string name="camera_power_test_data">ক্যামেরা পাওয়ার টেস্ট ডেটা</string>
+    <string name="single_photo_power_test">📸 একক ফটো পাওয়ার টেস্ট</string>
+    <string name="multiple_photo_power_tests">📊 একাধিক ফটো পাওয়ার টেস্ট</string>
+    <string name="test_results">পরীক্ষার ফলাফল:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">ডিসপ্লে পাওয়ার সুইপ</string>
+    <string name="quick_sweep">দ্রুত সুইপ</string>
+    <string name="full_sweep">পূর্ণ সুইপ</string>
+    <string name="run_levels">লেভেল চালান</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">CPU মাইক্রোবেঞ্চ</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">নেটওয়ার্ক RSSI স্যাম্পলিং</string>
+    <string name="start_60s_sampling">৬০ সেকেন্ড স্যাম্পলিং শুরু করুন</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">ডিভাইস স্লিপ ট্র্যাকার</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">ডিভাইস স্বাস্থ্য স্ক্যান করুন</string>
+    <string name="scanning_device">ডিভাইস স্ক্যান করা হচ্ছে…</string>
+    <string name="scanning">স্ক্যান করা হচ্ছে</string>
+    <string name="amazing_streak">🔥 অবিশ্বাস্য স্ট্রিক! আপনি একজন স্বাস্থ্য চ্যাম্পিয়ন!</string>
+    <string name="great_consistency">💪 দুর্দান্ত ধারাবাহিকতা! গতি বজায় রাখুন!</string>
+    <string name="good_start">✅ ভালো শুরু! আপনার দৈনন্দিন অভ্যাস গড়ে তুলুন!</string>
+    <string name="ready_to_start">🚀 আপনার স্বাস্থ্য যাত্রা শুরু করতে প্রস্তুত?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 অবস্থান অ্যাক্সেস</string>
+    <string name="phone_info_access">📱 ফোন তথ্য অ্যাক্সেস</string>
+    <string name="network_usage_stats">📊 নেটওয়ার্ক ব্যবহার পরিসংখ্যান</string>
+    <string name="notification_permission_denied">বিজ্ঞপ্তি অনুমতি অস্বীকার করা হয়েছে</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">ডিভাইস তথ্য শেয়ার করুন</string>
+    <string name="share_with_app">%1$s এর সাথে শেয়ার করুন</string>
+    <string name="unable_to_share_file">ফাইল শেয়ার করতে অক্ষম: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">আপডেট ডাউনলোড হয়েছে! পুনরায় শুরু হচ্ছে…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">পাওয়ার খরচ</string>
+    <string name="cd_refresh">রিফ্রেশ</string>
+    <string name="cd_settings">সেটিংস</string>
+    <string name="cd_certificate">সার্টিফিকেট</string>
+    <string name="cd_ai_assistant">AI সহায়ক</string>
+    <string name="cd_send_info">তথ্য পাঠান</string>
+    <string name="cd_scan">স্ক্যান</string>
+    <string name="cd_scanning">স্ক্যান করা হচ্ছে</string>
+    <string name="cd_camera_power_test">ক্যামেরা পাওয়ার টেস্ট</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">ফাইল শেয়ার করতে অক্ষম: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">ভাষা</string>
+    <string name="select_language">ভাষা নির্বাচন করুন</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">সেটিংস খুলুন</string>
+    <string name="close">বন্ধ করুন</string>
+    <string name="allow">অনুমতি দিন</string>
+    <string name="export_csv">CSV রপ্তানি করুন</string>
+    <string name="running_cpu_tests">CPU পরীক্ষা চলছে…</string>
+    <string name="sampling_countdown">স্যাম্পলিং… %1$ds</string>
+    <string name="light">হালকা</string>
+    <string name="dark">অন্ধকার</string>
+    <string name="simple">সরল</string>
+    <string name="advanced">উন্নত</string>
+    <string name="unavailable">অনুপলব্ধ</string>
+    <string name="test">পরীক্ষা</string>
+    <string name="want_more_magic">আরও ম্যাজিক চান? এখানে ট্যাপ করুন</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">মониটরিং শুরু হয়েছে</string>
+    <string name="toast_permission_denied">অনুমতি অস্বীকার করা হয়েছে</string>
+    <string name="toast_monitoring_stopped">মониটরিং বন্ধ হয়েছে</string>
+    <string name="toast_copied_to_clipboard">ক্লিপবোর্ডে কপি করা হয়েছে</string>
+    <string name="toast_error_opening_setting">সেটিং খোলার ত্রুটি: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">ব্যাটারি, গতি এবং আরও অনেক কিছু দেখছে ⚙</string>
+</resources>

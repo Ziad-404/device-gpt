@@ -1,0 +1,182 @@
+<resources>
+    <!-- Russian (Русский) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">Мониторьте ваше устройство на главном экране: питание, батарея, RAM, CPU, сеть, оценка здоровья и ежедневная серия</string>
+    
+    <!-- Common -->
+    <string name="loading">Загрузка…</string>
+    <string name="refresh">Обновить</string>
+    <string name="refresh_all_data">Обновить все данные</string>
+    <string name="settings">Настройки</string>
+    <string name="open_device_settings">Открыть настройки устройства</string>
+    <string name="cancel">Отмена</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="ok">ОК</string>
+    <string name="got_it">Понятно!</string>
+    <string name="send">Отправить</string>
+    <string name="share">Поделиться</string>
+    <string name="menu">Меню</string>
+    <string name="open_menu">Открыть меню</string>
+    <string name="open_menu_monitor_available">Открыть меню • Монитор в реальном времени доступен</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">Параметры разработчика</string>
+    <string name="open_developer_options">Открыть параметры разработчика</string>
+    
+    <!-- Certificate -->
+    <string name="cert">Сертификат</string>
+    <string name="certificate">Сертификат</string>
+    <string name="generate_device_certificate">Создать сертификат устройства</string>
+    <string name="loading_certificate_data">Загрузка данных сертификата…</string>
+    <string name="can_device_get_certified">Может ли ваше устройство быть сертифицировано?</string>
+    <string name="certificate_description">Получите вирусный Сертификат Устройства с реальной стоимостью перепродажи и рейтингом! Введите первоначальную цену вашего устройства и валюту.</string>
+    <string name="original_price">Первоначальная Цена</string>
+    <string name="currency_hint">Валюта (например, USD, RUB)</string>
+    <string name="generate_my_device_certificate">Создать Мой Сертификат Устройства</string>
+    <string name="certificate_subtitle">Получите официальный сертификат телефона и стоимость перепродажи за секунды—идеально для sharing или продажи!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">ИИ</string>
+    <string name="ai_assistant">Помощник ИИ</string>
+    <string name="open_ai_assistant">Открыть помощника ИИ</string>
+    <string name="loading_ai_assistant">Загрузка помощника ИИ…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">Информация об Устройстве</string>
+    <string name="network_info">Информация о Сети</string>
+    <string name="health">Здоровье</string>
+    <string name="power">Питание</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">Потребление Энергии</string>
+    <string name="component_breakdown">Детализация Компонентов</string>
+    <string name="total_power_consumption">Общее Потребление Энергии</string>
+    <string name="watts">Вт</string>
+    <string name="last_updated">Последнее обновление: %1$s</string>
+    <string name="loading_power_data">Загрузка данных потребления энергии…</string>
+    <string name="tap_for_more_info">Нажмите для получения дополнительной информации</string>
+    <string name="permission_required">Требуется Разрешение</string>
+    <string name="grant_permission_description">Предоставьте разрешение для просмотра точных данных потребления энергии для этого компонента.</string>
+    <string name="grant_permission">Предоставить Разрешение</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">Статистика Энергии</string>
+    <string name="average">Среднее</string>
+    <string name="peak">Пик</string>
+    <string name="samples">Образцы</string>
+    <string name="trend">Тренд: %1$s</string>
+    <string name="efficiency_rating">Оценка Эффективности</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">Тест Потребления Камеры</string>
+    <string name="camera_test_description">Измеряет, сколько энергии батареи использует ваш телефон при съемке фотографий</string>
+    <string name="camera_test_info">📷 Вы увидите живой предпросмотр камеры, пока мы измеряем. Камера фактически открывается и делает реальное фото.</string>
+    <string name="camera_test_accuracy">📊 Мы делаем несколько измерений и усредняем их для точности. Небольшие различия между тестами нормальны—температура и уровень батареи вашего телефона могут влиять на результаты.</string>
+    <string name="camera_preview">Предпросмотр Камеры\n(Покажет живой поток во время теста)</string>
+    <string name="preview_live_feed">Предпросмотр показывает живой поток камеры во время каждого теста</string>
+    <string name="testing">Тестирование…</string>
+    <string name="single_test">Одиночный Тест</string>
+    <string name="five_tests">5 Тестов</string>
+    <string name="all_test_results">Все Результаты Тестов (всего %1$d):</string>
+    <string name="test_result_format">Тест %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… и еще %1$d (просмотр CSV для всех)</string>
+    <string name="total_tests">%1$d тест%2$s всего</string>
+    <string name="view_csv">Просмотр CSV</string>
+    <string name="camera_power_test_data">Данные Теста Потребления Камеры</string>
+    <string name="single_photo_power_test">📸 Тест Потребления Одной Фотографии</string>
+    <string name="multiple_photo_power_tests">📊 Тесты Потребления Нескольких Фотографий</string>
+    <string name="test_results">Результаты Тестов:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">Сканирование Потребления Экрана</string>
+    <string name="quick_sweep">Быстрое Сканирование</string>
+    <string name="full_sweep">Полное Сканирование</string>
+    <string name="run_levels">Запустить Уровни</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">Микробенчмарк CPU</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">Сэмплирование RSSI Сети</string>
+    <string name="start_60s_sampling">Начать Сэмплирование 60с</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">Трекер Сна Устройства</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">Сканировать Здоровье Устройства</string>
+    <string name="scanning_device">Сканирование устройства…</string>
+    <string name="scanning">Сканирование</string>
+    <string name="amazing_streak">🔥 Потрясающая серия! Вы чемпион здоровья!</string>
+    <string name="great_consistency">💪 Отличная последовательность! Поддерживайте импульс!</string>
+    <string name="good_start">✅ Хорошее начало! Создайте свою ежедневную привычку!</string>
+    <string name="ready_to_start">🚀 Готовы начать ваше путешествие к здоровью?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 Доступ к Местоположению</string>
+    <string name="phone_info_access">📱 Доступ к Информации о Телефоне</string>
+    <string name="network_usage_stats">📊 Статистика Использования Сети</string>
+    <string name="notification_permission_denied">Разрешение на уведомления отклонено</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">Поделиться Информацией об Устройстве</string>
+    <string name="share_with_app">Поделиться с %1$s</string>
+    <string name="unable_to_share_file">Невозможно поделиться файлом: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">Обновление загружено! Перезапуск…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">Потребление Энергии</string>
+    <string name="cd_refresh">Обновить</string>
+    <string name="cd_settings">Настройки</string>
+    <string name="cd_certificate">Сертификат</string>
+    <string name="cd_ai_assistant">Помощник ИИ</string>
+    <string name="cd_send_info">Отправить Информацию</string>
+    <string name="cd_scan">Сканировать</string>
+    <string name="cd_scanning">Сканирование</string>
+    <string name="cd_camera_power_test">Тест Потребления Камеры</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">Невозможно поделиться файлом: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">Язык</string>
+    <string name="select_language">Выбрать Язык</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">Открыть Настройки</string>
+    <string name="close">Закрыть</string>
+    <string name="allow">Разрешить</string>
+    <string name="export_csv">Экспорт CSV</string>
+    <string name="running_cpu_tests">Запуск Тестов CPU…</string>
+    <string name="sampling_countdown">Сэмплирование… %1$ds</string>
+    <string name="light">Светлый</string>
+    <string name="dark">Темный</string>
+    <string name="simple">Простой</string>
+    <string name="advanced">Продвинутый</string>
+    <string name="unavailable">Недоступно</string>
+    <string name="test">Тест</string>
+    <string name="want_more_magic">Хотите Больше Магии? Нажмите Здесь</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">Мониторинг запущен</string>
+    <string name="toast_permission_denied">Разрешение отклонено</string>
+    <string name="toast_monitoring_stopped">Мониторинг остановлен</string>
+    <string name="toast_copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="toast_error_opening_setting">Ошибка при открытии настройки: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">Мониторинг батареи, скорости и многого другого ⚙</string>
+</resources>
+

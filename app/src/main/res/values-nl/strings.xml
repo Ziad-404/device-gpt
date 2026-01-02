@@ -1,0 +1,182 @@
+<resources>
+    <!-- Dutch (Nederlands) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">Monitor uw apparaat op het startscherm: stroom, batterij, RAM, CPU, netwerk, gezondheidsscore en dagelijkse reeks</string>
+    
+    <!-- Common -->
+    <string name="loading">Laden…</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="refresh_all_data">Alle gegevens vernieuwen</string>
+    <string name="settings">Instellingen</string>
+    <string name="open_device_settings">Apparaatinstellingen openen</string>
+    <string name="cancel">Annuleren</string>
+    <string name="continue_text">Doorgaan</string>
+    <string name="ok">OK</string>
+    <string name="got_it">Begrepen!</string>
+    <string name="send">Verzenden</string>
+    <string name="share">Delen</string>
+    <string name="menu">Menu</string>
+    <string name="open_menu">Menu openen</string>
+    <string name="open_menu_monitor_available">Menu openen • Realtime Monitor beschikbaar</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">Ontwikkelaarsopties</string>
+    <string name="open_developer_options">Ontwikkelaarsopties openen</string>
+    
+    <!-- Certificate -->
+    <string name="cert">Cert</string>
+    <string name="certificate">Certificaat</string>
+    <string name="generate_device_certificate">Apparaatcertificaat genereren</string>
+    <string name="loading_certificate_data">Certificaatgegevens laden…</string>
+    <string name="can_device_get_certified">Kan uw apparaat gecertificeerd worden?</string>
+    <string name="certificate_description">Krijg een viraal Apparaatcertificaat met echte doorverkoopwaarde en beoordeling! Voer de oorspronkelijke prijs en valuta van uw apparaat in.</string>
+    <string name="original_price">Oorspronkelijke Prijs</string>
+    <string name="currency_hint">Valuta (bijv. USD, EUR)</string>
+    <string name="generate_my_device_certificate">Mijn Apparaatcertificaat Genereren</string>
+    <string name="certificate_subtitle">Krijg uw officiële telefooncertificaat en doorverkoopwaarde in seconden—perfect om te delen of te verkopen!</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">AI</string>
+    <string name="ai_assistant">AI Assistent</string>
+    <string name="open_ai_assistant">AI Assistent openen</string>
+    <string name="loading_ai_assistant">AI Assistent laden…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">Apparaatinformatie</string>
+    <string name="network_info">Netwerkinformatie</string>
+    <string name="health">Gezondheid</string>
+    <string name="power">Stroom</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">Stroomverbruik</string>
+    <string name="component_breakdown">Onderdelenoverzicht</string>
+    <string name="total_power_consumption">Totaal Stroomverbruik</string>
+    <string name="watts">W</string>
+    <string name="last_updated">Laatst bijgewerkt: %1$s</string>
+    <string name="loading_power_data">Stroomverbruiksgegevens laden…</string>
+    <string name="tap_for_more_info">Tik voor meer informatie</string>
+    <string name="permission_required">Toestemming Vereist</string>
+    <string name="grant_permission_description">Geef toestemming om nauwkeurige stroomverbruiksgegevens voor dit onderdeel te zien.</string>
+    <string name="grant_permission">Toestemming Verlenen</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">Stroomstatistieken</string>
+    <string name="average">Gemiddelde</string>
+    <string name="peak">Piek</string>
+    <string name="samples">Monsters</string>
+    <string name="trend">Trend: %1$s</string>
+    <string name="efficiency_rating">Efficiëntiebeoordeling</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">Camera Stroomtest</string>
+    <string name="camera_test_description">Meet hoeveel batterijstroom uw telefoon gebruikt bij het maken van foto\'s</string>
+    <string name="camera_test_info">📷 We meten terwijl u een live cameravoorvertoning ziet. De camera opent daadwerkelijk en maakt een echte foto.</string>
+    <string name="camera_test_accuracy">📊 We doen meerdere metingen en middelen ze voor nauwkeurigheid. Kleine verschillen tussen tests zijn normaal—de temperatuur en batterijniveau van uw telefoon kunnen de resultaten beïnvloeden.</string>
+    <string name="camera_preview">Cameravoorvertoning\n(Toont live feed tijdens test)</string>
+    <string name="preview_live_feed">De voorvertoning toont live camerafeed tijdens elke test</string>
+    <string name="testing">Testen…</string>
+    <string name="single_test">Enkele Test</string>
+    <string name="five_tests">5 Tests</string>
+    <string name="all_test_results">Alle Testresultaten (totaal %1$d):</string>
+    <string name="test_result_format">Test %1$d: %2$s (%3$dms)</string>
+    <string name="more_tests">… en %1$d meer (bekijk CSV voor alles)</string>
+    <string name="total_tests">%1$d test%2$s totaal</string>
+    <string name="view_csv">CSV Bekijken</string>
+    <string name="camera_power_test_data">Camera Stroomtestgegevens</string>
+    <string name="single_photo_power_test">📸 Enkele Foto Stroomtest</string>
+    <string name="multiple_photo_power_tests">📊 Meerdere Foto Stroomtests</string>
+    <string name="test_results">Testresultaten:</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">Scherm Stroomscan</string>
+    <string name="quick_sweep">Snelle Scan</string>
+    <string name="full_sweep">Volledige Scan</string>
+    <string name="run_levels">Niveaus Uitvoeren</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">CPU Microbenchmark</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">Netwerk RSSI Bemonstering</string>
+    <string name="start_60s_sampling">60s Bemonstering Starten</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">Apparaat Slaaptracker</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">Apparaatgezondheid Scannen</string>
+    <string name="scanning_device">Apparaat scannen…</string>
+    <string name="scanning">Scannen</string>
+    <string name="amazing_streak">🔥 Geweldige reeks! U bent een gezondheidskampioen!</string>
+    <string name="great_consistency">💪 Geweldige consistentie! Houd de vaart erin!</string>
+    <string name="good_start">✅ Goede start! Bouw uw dagelijkse gewoonte op!</string>
+    <string name="ready_to_start">🚀 Klaar om uw gezondheidsreis te beginnen?</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 Locatietoegang</string>
+    <string name="phone_info_access">📱 Telefooninformatietoegang</string>
+    <string name="network_usage_stats">📊 Netwerkgebruiksstatistieken</string>
+    <string name="notification_permission_denied">Meldingsmachtiging geweigerd</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">Apparaatinformatie Delen</string>
+    <string name="share_with_app">Delen met %1$s</string>
+    <string name="unable_to_share_file">Kan bestand niet delen: %1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">Update gedownload! Herstarten…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">Stroomverbruik</string>
+    <string name="cd_refresh">Vernieuwen</string>
+    <string name="cd_settings">Instellingen</string>
+    <string name="cd_certificate">Certificaat</string>
+    <string name="cd_ai_assistant">AI Assistent</string>
+    <string name="cd_send_info">Informatie Verzenden</string>
+    <string name="cd_scan">Scannen</string>
+    <string name="cd_scanning">Scannen</string>
+    <string name="cd_camera_power_test">Camera Stroomtest</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">Kan bestand niet delen: %1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">Taal</string>
+    <string name="select_language">Taal Selecteren</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">Instellingen Openen</string>
+    <string name="close">Sluiten</string>
+    <string name="allow">Toestaan</string>
+    <string name="export_csv">CSV Exporteren</string>
+    <string name="running_cpu_tests">CPU Tests Uitvoeren…</string>
+    <string name="sampling_countdown">Bemonstering… %1$ds</string>
+    <string name="light">Licht</string>
+    <string name="dark">Donker</string>
+    <string name="simple">Eenvoudig</string>
+    <string name="advanced">Geavanceerd</string>
+    <string name="unavailable">Niet beschikbaar</string>
+    <string name="test">Test</string>
+    <string name="want_more_magic">Wil Je Meer Magie? Tik Hier</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">Monitoring gestart</string>
+    <string name="toast_permission_denied">Toestemming geweigerd</string>
+    <string name="toast_monitoring_stopped">Monitoring gestopt</string>
+    <string name="toast_copied_to_clipboard">Gekopieerd naar klembord</string>
+    <string name="toast_error_opening_setting">Fout bij openen instelling: %1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">Bewaakt batterij, snelheid en meer ⚙</string>
+</resources>
+

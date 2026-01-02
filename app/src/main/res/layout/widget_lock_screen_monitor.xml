@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/transparent">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 DeviceGPT"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <!-- Battery -->
+    <TextView
+        android:id="@+id/widget_battery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔋 Battery: --"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <!-- RAM & CPU -->
+    <TextView
+        android:id="@+id/widget_ram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🧠 RAM: --"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <!-- Network -->
+    <TextView
+        android:id="@+id/widget_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📶 Network: --"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <!-- Power -->
+    <TextView
+        android:id="@+id/widget_power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚡ Power: --"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <!-- Thermal -->
+    <TextView
+        android:id="@+id/widget_thermal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌡️ Temp: --"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+    <!-- Health Score & Streak -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/widget_health_score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🏥 Health: --"
+            android:textColor="@android:color/white"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/widget_streak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🔥 Streak: --"
+            android:textColor="@android:color/white"
+            android:textSize="11sp"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <!-- Last Update -->
+    <TextView
+        android:id="@+id/widget_last_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Updated: --"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:alpha="0.7"
+        android:paddingTop="4dp"
+        android:gravity="end" />
+
+</LinearLayout>
+

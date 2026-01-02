@@ -1,0 +1,181 @@
+<resources>
+    <!-- Chinese (中文) - Complete Translation -->
+    
+    <!-- App Name -->
+    <string name="app_name">DeviceGPT</string>
+    
+    <!-- Widget -->
+    <string name="lock_screen_widget_description">在主屏幕上监控您的设备：电源、电池、RAM、CPU、网络、健康评分和每日连续记录</string>
+    
+    <!-- Common -->
+    <string name="loading">加载中…</string>
+    <string name="refresh">刷新</string>
+    <string name="refresh_all_data">刷新所有数据</string>
+    <string name="settings">设置</string>
+    <string name="open_device_settings">打开设备设置</string>
+    <string name="cancel">取消</string>
+    <string name="continue_text">继续</string>
+    <string name="ok">确定</string>
+    <string name="got_it">知道了！</string>
+    <string name="send">发送</string>
+    <string name="share">分享</string>
+    <string name="menu">菜单</string>
+    <string name="open_menu">打开菜单</string>
+    <string name="open_menu_monitor_available">打开菜单 • 实时监控可用</string>
+    
+    <!-- Developer Options -->
+    <string name="developer_options">开发者选项</string>
+    <string name="open_developer_options">打开开发者选项</string>
+    
+    <!-- Certificate -->
+    <string name="cert">证书</string>
+    <string name="certificate">证书</string>
+    <string name="generate_device_certificate">生成设备证书</string>
+    <string name="loading_certificate_data">正在加载证书数据…</string>
+    <string name="can_device_get_certified">您的设备可以获得认证吗？</string>
+    <string name="certificate_description">获得具有真实转售价值和评级的病毒式设备证书！输入您设备的原始价格和货币。</string>
+    <string name="original_price">原始价格</string>
+    <string name="currency_hint">货币（例如 USD、CNY）</string>
+    <string name="generate_my_device_certificate">生成我的设备证书</string>
+    <string name="certificate_subtitle">在几秒钟内获得您的官方手机证书和转售价值—非常适合分享或出售！</string>
+    
+    <!-- AI Assistant -->
+    <string name="ai">AI</string>
+    <string name="ai_assistant">AI 助手</string>
+    <string name="open_ai_assistant">打开 AI 助手</string>
+    <string name="loading_ai_assistant">正在加载 AI 助手…</string>
+    
+    <!-- Tabs -->
+    <string name="device_info">设备信息</string>
+    <string name="network_info">网络信息</string>
+    <string name="health">健康</string>
+    <string name="power">电源</string>
+    
+    <!-- Power Consumption -->
+    <string name="power_consumption">功耗</string>
+    <string name="component_breakdown">组件明细</string>
+    <string name="total_power_consumption">总功耗</string>
+    <string name="watts">W</string>
+    <string name="last_updated">最后更新：%1$s</string>
+    <string name="loading_power_data">正在加载功耗数据…</string>
+    <string name="tap_for_more_info">点击查看更多信息</string>
+    <string name="permission_required">需要权限</string>
+    <string name="grant_permission_description">授予权限以查看此组件的准确功耗数据。</string>
+    <string name="grant_permission">授予权限</string>
+    
+    <!-- Power Statistics -->
+    <string name="power_statistics">功耗统计</string>
+    <string name="average">平均值</string>
+    <string name="peak">峰值</string>
+    <string name="samples">样本</string>
+    <string name="trend">趋势：%1$s</string>
+    <string name="efficiency_rating">效率评级</string>
+    
+    <!-- Camera Power Test -->
+    <string name="camera_power_test">相机功耗测试</string>
+    <string name="camera_test_description">测量您的手机在拍照时使用的电池电量</string>
+    <string name="camera_test_info">📷 我们在测量时您会看到实时相机预览。相机实际上会打开并拍摄真实照片。</string>
+    <string name="camera_test_accuracy">📊 我们进行多次测量并取平均值以确保准确性。测试之间的微小差异是正常的—您手机的温度和电池电量可能会影响结果。</string>
+    <string name="camera_preview">相机预览\n(测试期间将显示实时画面)</string>
+    <string name="preview_live_feed">预览在每次测试期间显示实时相机画面</string>
+    <string name="testing">测试中…</string>
+    <string name="single_test">单次测试</string>
+    <string name="five_tests">5 次测试</string>
+    <string name="all_test_results">所有测试结果（共 %1$d 项）：</string>
+    <string name="test_result_format">测试 %1$d：%2$s（%3$dms）</string>
+    <string name="more_tests">… 还有 %1$d 项（查看 CSV 查看全部）</string>
+    <string name="total_tests">共 %1$d 次测试%2$s</string>
+    <string name="view_csv">查看 CSV</string>
+    <string name="camera_power_test_data">相机功耗测试数据</string>
+    <string name="single_photo_power_test">📸 单张照片功耗测试</string>
+    <string name="multiple_photo_power_tests">📊 多张照片功耗测试</string>
+    <string name="test_results">测试结果：</string>
+    
+    <!-- Display Power Sweep -->
+    <string name="display_power_sweep">显示屏功耗扫描</string>
+    <string name="quick_sweep">快速扫描</string>
+    <string name="full_sweep">完整扫描</string>
+    <string name="run_levels">运行级别</string>
+    
+    <!-- CPU Microbench -->
+    <string name="cpu_microbench">CPU 微基准测试</string>
+    
+    <!-- Network RSSI Sampling -->
+    <string name="network_rssi_sampling">网络 RSSI 采样</string>
+    <string name="start_60s_sampling">开始 60 秒采样</string>
+    
+    <!-- Device Sleep Tracker -->
+    <string name="device_sleep_tracker">设备睡眠跟踪器</string>
+    
+    <!-- Health Score -->
+    <string name="scan_device_health">扫描设备健康</string>
+    <string name="scanning_device">正在扫描设备…</string>
+    <string name="scanning">扫描中</string>
+    <string name="amazing_streak">🔥 惊人的连续记录！您是健康冠军！</string>
+    <string name="great_consistency">💪 很棒的一致性！保持势头！</string>
+    <string name="good_start">✅ 良好的开始！建立您的日常习惯！</string>
+    <string name="ready_to_start">🚀 准备好开始您的健康之旅了吗？</string>
+    
+    <!-- Permissions -->
+    <string name="location_access">📍 位置访问</string>
+    <string name="phone_info_access">📱 手机信息访问</string>
+    <string name="network_usage_stats">📊 网络使用统计</string>
+    <string name="notification_permission_denied">通知权限被拒绝</string>
+    
+    <!-- File Names -->
+    <string name="my_device_info">my_device_info.txt</string>
+    <string name="my_network_info">my_network_info.txt</string>
+    <string name="my_health_report">my_health_report.txt</string>
+    <string name="my_power_report">my_power_report.txt</string>
+    
+    <!-- Share -->
+    <string name="share_device_info">分享设备信息</string>
+    <string name="share_with_app">与 %1$s 分享</string>
+    <string name="unable_to_share_file">无法分享文件：%1$s</string>
+    
+    <!-- Updates -->
+    <string name="update_downloaded_restarting">更新已下载！正在重启…</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_power_consumption">功耗</string>
+    <string name="cd_refresh">刷新</string>
+    <string name="cd_settings">设置</string>
+    <string name="cd_certificate">证书</string>
+    <string name="cd_ai_assistant">AI 助手</string>
+    <string name="cd_send_info">发送信息</string>
+    <string name="cd_scan">扫描</string>
+    <string name="cd_scanning">扫描中</string>
+    <string name="cd_camera_power_test">相机功耗测试</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_unable_to_share">无法分享文件：%1$s</string>
+    
+    <!-- Language Selection -->
+    <string name="language">语言</string>
+    <string name="select_language">选择语言</string>
+    
+    <!-- Additional UI Strings -->
+    <string name="open_settings">打开设置</string>
+    <string name="close">关闭</string>
+    <string name="allow">允许</string>
+    <string name="export_csv">导出 CSV</string>
+    <string name="running_cpu_tests">正在运行 CPU 测试…</string>
+    <string name="sampling_countdown">采样中… %1$ds</string>
+    <string name="light">浅色</string>
+    <string name="dark">深色</string>
+    <string name="simple">简单</string>
+    <string name="advanced">高级</string>
+    <string name="unavailable">不可用</string>
+    <string name="test">测试</string>
+    <string name="want_more_magic">想要更多魔法？点击这里</string>
+    
+    <!-- Toast Messages -->
+    <string name="toast_monitoring_started">监控已启动</string>
+    <string name="toast_permission_denied">权限被拒绝</string>
+    <string name="toast_monitoring_stopped">监控已停止</string>
+    <string name="toast_copied_to_clipboard">已复制到剪贴板</string>
+    <string name="toast_error_opening_setting">打开设置时出错：%1$s</string>
+    
+    <!-- Notification -->
+    <string name="notification_watching_over">正在监控电池、速度等 ⚙</string>
+</resources>

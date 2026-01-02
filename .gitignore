@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.kotlin/
+
+# Sensitive files - DO NOT COMMIT
+key.properties
+app/google-services.json
+release-key.jks
+*.jks
+*.keystore
+local_config.properties
