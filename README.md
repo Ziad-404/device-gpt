@@ -30,6 +30,18 @@
 
 ---
 
+<div align="center">
+
+> ### 💼 **Need a Similar App Built?**
+> 
+> **DeviceGPT was built by Teamz Lab. We can build your app too.**
+> 
+> **[🚀 Work with Teamz Lab →](#work-with-teamz-lab)** • **[📧 Get Free Consultation](mailto:hello@teamzlab.com?subject=Project%20Inquiry%20-%20Saw%20DeviceGPT&body=Hi%20Teamz%20Lab%2C%0A%0AI%20saw%20DeviceGPT%20on%20GitHub%20and%20I%27d%20like%20to%20discuss%20my%20project.%0A%0AProject%20Type%3A%20%5BMobile%20App%20%2F%20Web%20App%20%2F%20AI%20Integration%20%2F%20UI%20UX%20Design%5D%0ATimeline%3A%0ABudget%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you%21)** • **[💼 View Portfolio](https://teamzlab.com/)**
+
+</div>
+
+---
+
 ## What DeviceGPT Does
 
 🔍 **DeviceGPT: AI Phone Health** scans your Android device — battery, storage, mic/camera logs, speed & privacy. Get instant phone reports explained in plain English by ChatGPT, Gemini, or Claude.
@@ -64,7 +76,7 @@
 
 <div align="center">
 
-**[📱 Download on Google Play](https://play.google.com/store/apps/details?id=com.teamz.lab.debugger)** • **[🚀 Try It](#-quick-start)** • **[📖 Build It](#setup)** • **[🤝 Contribute](#-contributing)**
+**[📱 Download on Google Play](https://play.google.com/store/apps/details?id=com.teamz.lab.debugger)** • **[🚀 Try It](#-quick-start)** • **[📖 Build It](#setup)** • **[🤝 Contribute](#-contributing)** • **[💼 Work with Teamz Lab](#work-with-teamz-lab)**
 
 </div>
 
