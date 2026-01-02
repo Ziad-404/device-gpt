@@ -64,7 +64,7 @@
 
 <div align="center">
 
-**[📱 Download on Google Play](https://play.google.com/store/apps/details?id=com.teamz.lab.debugger)** • **[🚀 Try It](#-quick-start)** • **[📖 Build It](#-setup)** • **[🤝 Contribute](#-contributing)**
+**[📱 Download on Google Play](https://play.google.com/store/apps/details?id=com.teamz.lab.debugger)** • **[🚀 Try It](#-quick-start)** • **[📖 Build It](#setup)** • **[🤝 Contribute](#-contributing)**
 
 </div>
 
@@ -303,7 +303,7 @@ cd device-gpt
 # Or open in Android Studio and click "Run"
 ```
 
-The app will run with test AdMob IDs and placeholder configurations. For production features, see [Configuration](#-configuration) below.
+The app will run with test AdMob IDs and placeholder configurations. For production features, see [Configuration](#configuration) below.
 
 ---
 
