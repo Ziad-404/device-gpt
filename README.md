@@ -307,6 +307,7 @@ The app will run with test AdMob IDs and placeholder configurations. For product
 
 ---
 
+<a name="setup"></a>
 ## ⚙️ Setup
 
 ### Configuration
