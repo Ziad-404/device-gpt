@@ -256,26 +256,40 @@ Quick reference for developers exploring the codebase:
 
 <div align="center">
 
-### Device Information & Performance
+### 📱 Device Information & Performance
 
-<img src="docs/images/Screenshot_20251227-055650.png" alt="Device Info Screen" width="200"/>
-<img src="docs/images/Screenshot_20251227-055713.png" alt="Device Specifications" width="200"/>
-<img src="docs/images/Screenshot_20251227-055743.png" alt="Performance Metrics" width="200"/>
+**Real-time device monitoring, CPU, RAM, network speeds, and power consumption**
 
-### Privacy & Security Scanner
+<img src="docs/images/Screenshot_20251227-055650.png" alt="DeviceGPT Overview - Real-time metrics showing temperature, RAM, CPU, network speeds, power consumption, and health score" width="200"/>
+<img src="docs/images/Screenshot_20251227-055713.png" alt="Live Device & Network Status - Network connectivity options, FPS monitoring, and real-time device metrics" width="200"/>
+<img src="docs/images/Screenshot_20251227-055743.png" alt="Global Leaderboard - Device rankings, battery saver scores, speed champion rankings, and best devices comparison" width="200"/>
 
-<img src="docs/images/Screenshot_20251227-055800.png" alt="Privacy Scanner" width="200"/>
-<img src="docs/images/Screenshot_20251227-055808.png" alt="Security Check" width="200"/>
+---
 
-### Network & Health
+### 🔐 Privacy & Security Scanner
 
-<img src="docs/images/Screenshot_20251227-055921.png" alt="Network Info" width="200"/>
-<img src="docs/images/Screenshot_20251227-055942.png" alt="Health Score" width="200"/>
+**Power consumption analysis and device health scoring**
 
-### Power & AI Assistant
+<img src="docs/images/Screenshot_20251227-055800.png" alt="Power Consumption Analysis - Real-time battery usage in watts, drain rate per hour, and power consumption statistics" width="200"/>
+<img src="docs/images/Screenshot_20251227-055808.png" alt="Today's Health Score - Device health rating (5/10), daily streak tracking, best score, and health scan recommendations" width="200"/>
 
-<img src="docs/images/Screenshot_20251227-060001.png" alt="Power Consumption" width="200"/>
-<img src="docs/images/Screenshot_20251227-060059.png" alt="AI Assistant" width="200"/>
+---
+
+### 🌐 Network & Health
+
+**Network information, device health details, and AI-powered explanations**
+
+<img src="docs/images/Screenshot_20251227-055921.png" alt="Health Tab - Expandable sections for Processor & Performance, GPU Information, Battery & Charging, GPS & Location, SIM & Network Info" width="200"/>
+<img src="docs/images/Screenshot_20251227-055942.png" alt="AI Assistant for Health - Simple and Advanced explanation modes, AI model selection (ChatGPT, Gemini, DeepSeek) for health questions" width="200"/>
+
+---
+
+### ⚡ Power & AI Assistant
+
+**Device certification and network speed testing**
+
+<img src="docs/images/Screenshot_20251227-060001.png" alt="Device Certificate Generator - Get certified phone report with resale value estimation, enter original price and currency" width="200"/>
+<img src="docs/images/Screenshot_20251227-060059.png" alt="Network Speed Test - Download/upload speeds, network packet loss, connection stability (jitter), and mobile data status" width="200"/>
 
 </div>
 
