@@ -2528,41 +2528,87 @@ Total Tests: ${allResults.size}
             },
             onDismiss = { viewModel.setCameraCsvDialogVisible(false) },
             onExport = {
-                AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
-                    "test_type" to "camera",
-                    "row_count" to allResults.size
-                ))
-                val csvHeaders = listOf(
-                    "timestamp", "baseline_power_w", "preview_power_w", "capture_power_w",
-                    "power_difference_w", "capture_duration_ms", "energy_j"
-                )
-                val csvRows = allResults.map { result ->
-                    listOf(
-                        result.timestamp.toString(),
-                        result.baselinePower.toString(),
-                        result.previewPower.toString(),
-                        result.capturePower.toString(),
-                        result.powerDifference.toString(),
-                        result.captureDuration.toString(),
-                        (result.powerDifference * result.captureDuration / 1000.0).toString()
-                    )
-                }
-                
-                val uri = PowerConsumptionUtils.exportExperimentCSV(
-                    context = context,
-                    experimentName = "camera_power_tests",
-                    headers = csvHeaders,
-                    rows = csvRows
-                )
-                PowerAchievements.recordCsvExport(context)
-                
-                uri?.let {
-                    val shareIntent = Intent(Intent.ACTION_SEND).apply {
-                        type = "text/csv"
-                        putExtra(Intent.EXTRA_STREAM, it)
-                        addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                // Show ad before CSV export
+                if (activity != null) {
+                    InterstitialAdManager.showAdBeforeAction(
+                        activity = activity,
+                        actionName = "csv_export_camera"
+                    ) {
+                        AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
+                            "test_type" to "camera",
+                            "row_count" to allResults.size
+                        ))
+                        val csvHeaders = listOf(
+                            "timestamp", "baseline_power_w", "preview_power_w", "capture_power_w",
+                            "power_difference_w", "capture_duration_ms", "energy_j"
+                        )
+                        val csvRows = allResults.map { result ->
+                            listOf(
+                                result.timestamp.toString(),
+                                result.baselinePower.toString(),
+                                result.previewPower.toString(),
+                                result.capturePower.toString(),
+                                result.powerDifference.toString(),
+                                result.captureDuration.toString(),
+                                (result.powerDifference * result.captureDuration / 1000.0).toString()
+                            )
+                        }
+                        
+                        val uri = PowerConsumptionUtils.exportExperimentCSV(
+                            context = context,
+                            experimentName = "camera_power_tests",
+                            headers = csvHeaders,
+                            rows = csvRows
+                        )
+                        PowerAchievements.recordCsvExport(context)
+                        
+                        uri?.let {
+                            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                                type = "text/csv"
+                                putExtra(Intent.EXTRA_STREAM, it)
+                                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                            }
+                            context.startActivity(Intent.createChooser(shareIntent, "Share Camera Power Data"))
+                        }
                     }
-                    context.startActivity(Intent.createChooser(shareIntent, "Share Camera Power Data"))
+                } else {
+                    // Fallback if no activity
+                    AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
+                        "test_type" to "camera",
+                        "row_count" to allResults.size
+                    ))
+                    val csvHeaders = listOf(
+                        "timestamp", "baseline_power_w", "preview_power_w", "capture_power_w",
+                        "power_difference_w", "capture_duration_ms", "energy_j"
+                    )
+                    val csvRows = allResults.map { result ->
+                        listOf(
+                            result.timestamp.toString(),
+                            result.baselinePower.toString(),
+                            result.previewPower.toString(),
+                            result.capturePower.toString(),
+                            result.powerDifference.toString(),
+                            result.captureDuration.toString(),
+                            (result.powerDifference * result.captureDuration / 1000.0).toString()
+                        )
+                    }
+                    
+                    val uri = PowerConsumptionUtils.exportExperimentCSV(
+                        context = context,
+                        experimentName = "camera_power_tests",
+                        headers = csvHeaders,
+                        rows = csvRows
+                    )
+                    PowerAchievements.recordCsvExport(context)
+                    
+                    uri?.let {
+                        val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                            type = "text/csv"
+                            putExtra(Intent.EXTRA_STREAM, it)
+                            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                        }
+                        context.startActivity(Intent.createChooser(shareIntent, "Share Camera Power Data"))
+                    }
                 }
             }
         )
@@ -3548,35 +3594,75 @@ This shows how different brightness levels affect battery consumption.
             },
             onDismiss = { viewModel.setDisplayCsvDialogVisible(false) },
             onExport = {
-                AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
-                    "test_type" to "display",
-                    "row_count" to testResults!!.size
-                ))
-                val csvHeaders = listOf("timestamp", "brightness_percent", "apl", "power_w")
-                val csvRows = testResults!!.map { point ->
-                    listOf(
-                        point.timestamp.toString(),
-                        point.brightnessLevel.toString(),
-                        point.apl.toString(),
-                        point.powerW.toString()
-                    )
-                }
-                
-                val uri = PowerConsumptionUtils.exportExperimentCSV(
-                    context = context,
-                    experimentName = "display_power_sweep",
-                    headers = csvHeaders,
-                    rows = csvRows
-                )
-                PowerAchievements.recordCsvExport(context)
-                
-                uri?.let {
-                    val shareIntent = Intent(Intent.ACTION_SEND).apply {
-                        type = "text/csv"
-                        putExtra(Intent.EXTRA_STREAM, it)
-                        addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                // Show ad before CSV export
+                if (activity != null) {
+                    InterstitialAdManager.showAdBeforeAction(
+                        activity = activity,
+                        actionName = "csv_export_display"
+                    ) {
+                        AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
+                            "test_type" to "display",
+                            "row_count" to testResults!!.size
+                        ))
+                        val csvHeaders = listOf("timestamp", "brightness_percent", "apl", "power_w")
+                        val csvRows = testResults!!.map { point ->
+                            listOf(
+                                point.timestamp.toString(),
+                                point.brightnessLevel.toString(),
+                                point.apl.toString(),
+                                point.powerW.toString()
+                            )
+                        }
+                        
+                        val uri = PowerConsumptionUtils.exportExperimentCSV(
+                            context = context,
+                            experimentName = "display_power_sweep",
+                            headers = csvHeaders,
+                            rows = csvRows
+                        )
+                        PowerAchievements.recordCsvExport(context)
+                        
+                        uri?.let {
+                            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                                type = "text/csv"
+                                putExtra(Intent.EXTRA_STREAM, it)
+                                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                            }
+                            context.startActivity(Intent.createChooser(shareIntent, "Share Display Power Data"))
+                        }
                     }
-                    context.startActivity(Intent.createChooser(shareIntent, "Share Display Power Data"))
+                } else {
+                    // Fallback if no activity
+                    AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
+                        "test_type" to "display",
+                        "row_count" to testResults!!.size
+                    ))
+                    val csvHeaders = listOf("timestamp", "brightness_percent", "apl", "power_w")
+                    val csvRows = testResults!!.map { point ->
+                        listOf(
+                            point.timestamp.toString(),
+                            point.brightnessLevel.toString(),
+                            point.apl.toString(),
+                            point.powerW.toString()
+                        )
+                    }
+                    
+                    val uri = PowerConsumptionUtils.exportExperimentCSV(
+                        context = context,
+                        experimentName = "display_power_sweep",
+                        headers = csvHeaders,
+                        rows = csvRows
+                    )
+                    PowerAchievements.recordCsvExport(context)
+                    
+                    uri?.let {
+                        val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                            type = "text/csv"
+                            putExtra(Intent.EXTRA_STREAM, it)
+                            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                        }
+                        context.startActivity(Intent.createChooser(shareIntent, "Share Display Power Data"))
+                    }
                 }
             }
         )
@@ -4231,43 +4317,89 @@ This shows how CPU processing speed affects battery consumption.
             },
             onDismiss = { viewModel.setCpuCsvDialogVisible(false) },
             onExport = {
-                AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
-                    "test_type" to "cpu",
-                    "row_count" to testResults!!.size
-                ))
-                val csvHeaders = listOf("timestamp", "workload_tried_percent", "extra_battery_used_watts", "processor_status", "observed_response_percent")
-                val csvRows = testResults!!.map { point ->
-                    // Include observedUtilPercent in CSV for technical users, but label it clearly
-                    listOf(
-                        point.timestamp.toString(),
-                        point.targetUtilPercent.toString(),
-                        if (point.deltaPowerW > 0.000001) point.deltaPowerW.toString() else "0.0",
-                        point.freqSummary.replace("cores @", "cores at"),
-                        if (point.observedUtilPercent > 0) point.observedUtilPercent.toString() else "not_detected"
-                    )
-                }
-                
-                val uri = PowerConsumptionUtils.exportExperimentCSV(
-                    context = context,
-                    experimentName = "cpu_microbench",
-                    headers = csvHeaders,
-                    rows = csvRows
-                )
-                
-                // Track CSV export
-                AnalyticsUtils.logEvent(
-                    AnalyticsEvent.PowerCsvExported,
-                    mapOf("experiment_type" to "cpu", "rows" to csvRows.size)
-                )
-                PowerAchievements.recordCsvExport(context)
-                
-                uri?.let {
-                    val shareIntent = Intent(Intent.ACTION_SEND).apply {
-                        type = "text/csv"
-                        putExtra(Intent.EXTRA_STREAM, it)
-                        addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                // Show ad before CSV export
+                if (activity != null) {
+                    InterstitialAdManager.showAdBeforeAction(
+                        activity = activity,
+                        actionName = "csv_export_cpu"
+                    ) {
+                        AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
+                            "test_type" to "cpu",
+                            "row_count" to testResults!!.size
+                        ))
+                        val csvHeaders = listOf("timestamp", "workload_tried_percent", "extra_battery_used_watts", "processor_status", "observed_response_percent")
+                        val csvRows = testResults!!.map { point ->
+                            // Include observedUtilPercent in CSV for technical users, but label it clearly
+                            listOf(
+                                point.timestamp.toString(),
+                                point.targetUtilPercent.toString(),
+                                if (point.deltaPowerW > 0.000001) point.deltaPowerW.toString() else "0.0",
+                                point.freqSummary.replace("cores @", "cores at"),
+                                if (point.observedUtilPercent > 0) point.observedUtilPercent.toString() else "not_detected"
+                            )
+                        }
+                        
+                        val uri = PowerConsumptionUtils.exportExperimentCSV(
+                            context = context,
+                            experimentName = "cpu_microbench",
+                            headers = csvHeaders,
+                            rows = csvRows
+                        )
+                        
+                        // Track CSV export
+                        AnalyticsUtils.logEvent(
+                            AnalyticsEvent.PowerCsvExported,
+                            mapOf("experiment_type" to "cpu", "rows" to csvRows.size)
+                        )
+                        PowerAchievements.recordCsvExport(context)
+                        
+                        uri?.let {
+                            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                                type = "text/csv"
+                                putExtra(Intent.EXTRA_STREAM, it)
+                                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                            }
+                            context.startActivity(Intent.createChooser(shareIntent, "Share CPU Microbench Data"))
+                        }
                     }
-                    context.startActivity(Intent.createChooser(shareIntent, "Share CPU Microbench Data"))
+                } else {
+                    // Fallback if no activity
+                    AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
+                        "test_type" to "cpu",
+                        "row_count" to testResults!!.size
+                    ))
+                    val csvHeaders = listOf("timestamp", "workload_tried_percent", "extra_battery_used_watts", "processor_status", "observed_response_percent")
+                    val csvRows = testResults!!.map { point ->
+                        listOf(
+                            point.timestamp.toString(),
+                            point.targetUtilPercent.toString(),
+                            if (point.deltaPowerW > 0.000001) point.deltaPowerW.toString() else "0.0",
+                            point.freqSummary.replace("cores @", "cores at"),
+                            if (point.observedUtilPercent > 0) point.observedUtilPercent.toString() else "not_detected"
+                        )
+                    }
+                    
+                    val uri = PowerConsumptionUtils.exportExperimentCSV(
+                        context = context,
+                        experimentName = "cpu_microbench",
+                        headers = csvHeaders,
+                        rows = csvRows
+                    )
+                    
+                    AnalyticsUtils.logEvent(
+                        AnalyticsEvent.PowerCsvExported,
+                        mapOf("experiment_type" to "cpu", "rows" to csvRows.size)
+                    )
+                    PowerAchievements.recordCsvExport(context)
+                    
+                    uri?.let {
+                        val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                            type = "text/csv"
+                            putExtra(Intent.EXTRA_STREAM, it)
+                            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                        }
+                        context.startActivity(Intent.createChooser(shareIntent, "Share CPU Microbench Data"))
+                    }
                 }
             }
         )
@@ -4843,42 +4975,88 @@ This shows how WiFi and cellular signal strength affects battery power consumpti
             },
             onDismiss = { viewModel.setNetworkCsvDialogVisible(false) },
             onExport = {
-                AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
-                    "test_type" to "network",
-                    "row_count" to testResults!!.size
-                ))
-                val csvHeaders = listOf("timestamp", "time_seconds", "wifi_rssi_dbm", "cell_dbm", "power_w")
-                val csvRows = testResults!!.map { point ->
-                    listOf(
-                        point.timestamp.toString(),
-                        point.timeSeconds.toString(),
-                        point.wifiRssiDbm?.toString() ?: "",
-                        point.cellDbm?.toString() ?: "",
-                        point.powerW.toString()
-                    )
-                }
-                
-                val uri = PowerConsumptionUtils.exportExperimentCSV(
-                    context = context,
-                    experimentName = "network_rssi_sampling",
-                    headers = csvHeaders,
-                    rows = csvRows
-                )
-                
-                // Track CSV export
-                AnalyticsUtils.logEvent(
-                    AnalyticsEvent.PowerCsvExported,
-                    mapOf("experiment_type" to "network", "rows" to csvRows.size)
-                )
-                PowerAchievements.recordCsvExport(context)
-                
-                uri?.let {
-                    val shareIntent = Intent(Intent.ACTION_SEND).apply {
-                        type = "text/csv"
-                        putExtra(Intent.EXTRA_STREAM, it)
-                        addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                // Show ad before CSV export
+                if (activity != null) {
+                    InterstitialAdManager.showAdBeforeAction(
+                        activity = activity,
+                        actionName = "csv_export_network"
+                    ) {
+                        AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
+                            "test_type" to "network",
+                            "row_count" to testResults!!.size
+                        ))
+                        val csvHeaders = listOf("timestamp", "time_seconds", "wifi_rssi_dbm", "cell_dbm", "power_w")
+                        val csvRows = testResults!!.map { point ->
+                            listOf(
+                                point.timestamp.toString(),
+                                point.timeSeconds.toString(),
+                                point.wifiRssiDbm?.toString() ?: "",
+                                point.cellDbm?.toString() ?: "",
+                                point.powerW.toString()
+                            )
+                        }
+                        
+                        val uri = PowerConsumptionUtils.exportExperimentCSV(
+                            context = context,
+                            experimentName = "network_rssi_sampling",
+                            headers = csvHeaders,
+                            rows = csvRows
+                        )
+                        
+                        // Track CSV export
+                        AnalyticsUtils.logEvent(
+                            AnalyticsEvent.PowerCsvExported,
+                            mapOf("experiment_type" to "network", "rows" to csvRows.size)
+                        )
+                        PowerAchievements.recordCsvExport(context)
+                        
+                        uri?.let {
+                            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                                type = "text/csv"
+                                putExtra(Intent.EXTRA_STREAM, it)
+                                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                            }
+                            context.startActivity(Intent.createChooser(shareIntent, "Share Network RSSI Data"))
+                        }
                     }
-                    context.startActivity(Intent.createChooser(shareIntent, "Share Network RSSI Data"))
+                } else {
+                    // Fallback if no activity
+                    AnalyticsUtils.logEvent(AnalyticsEvent.PowerCsvExported, mapOf<String, Any?>(
+                        "test_type" to "network",
+                        "row_count" to testResults!!.size
+                    ))
+                    val csvHeaders = listOf("timestamp", "time_seconds", "wifi_rssi_dbm", "cell_dbm", "power_w")
+                    val csvRows = testResults!!.map { point ->
+                        listOf(
+                            point.timestamp.toString(),
+                            point.timeSeconds.toString(),
+                            point.wifiRssiDbm?.toString() ?: "",
+                            point.cellDbm?.toString() ?: "",
+                            point.powerW.toString()
+                        )
+                    }
+                    
+                    val uri = PowerConsumptionUtils.exportExperimentCSV(
+                        context = context,
+                        experimentName = "network_rssi_sampling",
+                        headers = csvHeaders,
+                        rows = csvRows
+                    )
+                    
+                    AnalyticsUtils.logEvent(
+                        AnalyticsEvent.PowerCsvExported,
+                        mapOf("experiment_type" to "network", "rows" to csvRows.size)
+                    )
+                    PowerAchievements.recordCsvExport(context)
+                    
+                    uri?.let {
+                        val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                            type = "text/csv"
+                            putExtra(Intent.EXTRA_STREAM, it)
+                            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                        }
+                        context.startActivity(Intent.createChooser(shareIntent, "Share Network RSSI Data"))
+                    }
                 }
             }
         )
@@ -6651,38 +6829,81 @@ Efficiency:
             },
             onDismiss = { viewModel.setAppPowerCsvDialogVisible(false) },
             onExport = {
-                AnalyticsUtils.logEvent(AnalyticsEvent.AppPowerCsvExported, mapOf<String, Any?>(
-                    "app_count" to allApps.size
-                ))
-                
-                val csvHeaders = listOf("timestamp", "package_name", "app_name", "power_w", "foreground_time_ms", "background_time_ms", "total_usage_ms", "battery_impact_percent_per_hour")
-                val csvRows = allApps.map { app ->
-                    listOf(
-                        app.timestamp.toString(),
-                        app.packageName,
-                        app.appName,
-                        app.powerConsumption.toString(),
-                        app.foregroundTime.toString(),
-                        app.backgroundTime.toString(),
-                        app.totalUsageTime.toString(),
-                        app.batteryImpact.toString()
-                    )
-                }
-                
-                val uri = PowerConsumptionUtils.exportExperimentCSV(
-                    context = context,
-                    experimentName = "app_power_monitor",
-                    headers = csvHeaders,
-                    rows = csvRows
-                )
-                
-                uri?.let {
-                    val shareIntent = Intent(Intent.ACTION_SEND).apply {
-                        type = "text/csv"
-                        putExtra(Intent.EXTRA_STREAM, it)
-                        addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                // Show ad before CSV export
+                if (activity != null) {
+                    InterstitialAdManager.showAdBeforeAction(
+                        activity = activity,
+                        actionName = "csv_export_app_power"
+                    ) {
+                        AnalyticsUtils.logEvent(AnalyticsEvent.AppPowerCsvExported, mapOf<String, Any?>(
+                            "app_count" to allApps.size
+                        ))
+                        
+                        val csvHeaders = listOf("timestamp", "package_name", "app_name", "power_w", "foreground_time_ms", "background_time_ms", "total_usage_ms", "battery_impact_percent_per_hour")
+                        val csvRows = allApps.map { app ->
+                            listOf(
+                                app.timestamp.toString(),
+                                app.packageName,
+                                app.appName,
+                                app.powerConsumption.toString(),
+                                app.foregroundTime.toString(),
+                                app.backgroundTime.toString(),
+                                app.totalUsageTime.toString(),
+                                app.batteryImpact.toString()
+                            )
+                        }
+                        
+                        val uri = PowerConsumptionUtils.exportExperimentCSV(
+                            context = context,
+                            experimentName = "app_power_monitor",
+                            headers = csvHeaders,
+                            rows = csvRows
+                        )
+                        
+                        uri?.let {
+                            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                                type = "text/csv"
+                                putExtra(Intent.EXTRA_STREAM, it)
+                                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                            }
+                            context.startActivity(Intent.createChooser(shareIntent, "Share App Power Data"))
+                        }
                     }
-                    context.startActivity(Intent.createChooser(shareIntent, "Share App Power Data"))
+                } else {
+                    // Fallback if no activity
+                    AnalyticsUtils.logEvent(AnalyticsEvent.AppPowerCsvExported, mapOf<String, Any?>(
+                        "app_count" to allApps.size
+                    ))
+                    
+                    val csvHeaders = listOf("timestamp", "package_name", "app_name", "power_w", "foreground_time_ms", "background_time_ms", "total_usage_ms", "battery_impact_percent_per_hour")
+                    val csvRows = allApps.map { app ->
+                        listOf(
+                            app.timestamp.toString(),
+                            app.packageName,
+                            app.appName,
+                            app.powerConsumption.toString(),
+                            app.foregroundTime.toString(),
+                            app.backgroundTime.toString(),
+                            app.totalUsageTime.toString(),
+                            app.batteryImpact.toString()
+                        )
+                    }
+                    
+                    val uri = PowerConsumptionUtils.exportExperimentCSV(
+                        context = context,
+                        experimentName = "app_power_monitor",
+                        headers = csvHeaders,
+                        rows = csvRows
+                    )
+                    
+                    uri?.let {
+                        val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                            type = "text/csv"
+                            putExtra(Intent.EXTRA_STREAM, it)
+                            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                        }
+                        context.startActivity(Intent.createChooser(shareIntent, "Share App Power Data"))
+                    }
                 }
             }
         )

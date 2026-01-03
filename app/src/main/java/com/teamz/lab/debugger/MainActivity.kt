@@ -722,10 +722,23 @@ https://play.google.com/store/apps/details?id=${context.packageName}
                             0 -> DeviceInfoSection(
                                 activity = activity,
                                 onShareClick = { info -> shareText = info },
-                                onAIClick = { showAIDialog = true },
+                                onAIClick = {
+                                    com.teamz.lab.debugger.utils.AIClickHandler.handleAIClick(
+                                        activity = activity,
+                                        source = "device_info_section"
+                                    ) {
+                                        showAIDialog = true
+                                    }
+                                },
                                 onItemAIClick = { title, content ->
-                                    selectedItemForAI = Pair(title, content)
-                                    showItemAIDialog = true
+                                    com.teamz.lab.debugger.utils.AIClickHandler.handleAIClick(
+                                        activity = activity,
+                                        source = "device_info_item",
+                                        itemTitle = title
+                                    ) {
+                                        selectedItemForAI = Pair(title, content)
+                                        showItemAIDialog = true
+                                    }
                                 }
                             )
 
@@ -733,8 +746,14 @@ https://play.google.com/store/apps/details?id=${context.packageName}
                                 activity = activity, 
                                 onShareClick = { info -> shareText = info },
                                 onItemAIClick = { title, content ->
-                                    selectedItemForAI = Pair(title, content)
-                                    showItemAIDialog = true
+                                    com.teamz.lab.debugger.utils.AIClickHandler.handleAIClick(
+                                        activity = activity,
+                                        source = "network_info_item",
+                                        itemTitle = title
+                                    ) {
+                                        selectedItemForAI = Pair(title, content)
+                                        showItemAIDialog = true
+                                    }
                                 }
                             )
 
@@ -794,7 +813,13 @@ https://play.google.com/store/apps/details?id=${context.packageName}
 
     if (showAIDialog) {
         AIAssistantDialog(
-            onDismiss = { showAIDialog = false },
+            onDismiss = { 
+                showAIDialog = false
+                // Show ad after user dismisses AI dialog
+                InterstitialAdManager.showAdIfAvailable(activity) {
+                    // Ad shown and dismissed
+                }
+            },
             onShareWithApp = { app, promptMode ->
                 val fileName = when (selectedTab) {
                     0 -> "my_device_info.txt"
@@ -865,6 +890,10 @@ https://play.google.com/store/apps/details?id=${context.packageName}
             onDismiss = { 
                 showItemAIDialog = false
                 selectedItemForAI = null
+                // Show ad after user dismisses item AI dialog
+                InterstitialAdManager.showAdIfAvailable(activity) {
+                    // Ad shown and dismissed
+                }
             },
             onShareWithApp = { app, promptMode ->
                 // Clean filename - remove special characters that might cause issues
@@ -1000,6 +1029,10 @@ https://play.google.com/store/apps/details?id=${context.packageName}
             onDismiss = {
                 showAIDialog = false
                 showAICertificateDialog = false
+                // Show ad after user dismisses certificate dialog
+                InterstitialAdManager.showAdIfAvailable(activity) {
+                    // Ad shown and dismissed
+                }
             },
             onShareWithApp = { app, mode ->
                 val now =
@@ -1072,7 +1105,13 @@ https://play.google.com/store/apps/details?id=${context.packageName}
     // Viral Share Dialog
     if (showViralShareDialog) {
         ViralShareDialog(
-            onDismiss = { showViralShareDialog = false },
+            onDismiss = { 
+                showViralShareDialog = false
+                // Show ad after user dismisses share dialog
+                InterstitialAdManager.showAdIfAvailable(activity) {
+                    // Ad shown and dismissed
+                }
+            },
             context = context,
             shareText = shareText,
             showReferralCode = true,

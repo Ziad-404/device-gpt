@@ -569,7 +569,13 @@ fun DrawerContent(
             coroutineScope.launch {
                 drawerState.close()
             }
-            onShareClick?.invoke()
+            // Show ad before opening share dialog
+            InterstitialAdManager.showAdBeforeAction(
+                activity = activity,
+                actionName = "share_with_friends"
+            ) {
+                onShareClick?.invoke()
+            }
         }
 
         HorizontalDivider(
