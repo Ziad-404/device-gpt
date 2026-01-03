@@ -2,7 +2,6 @@ package com.teamz.lab.debugger
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import com.teamz.lab.debugger.services.*
 import com.teamz.lab.debugger.utils.*
 import org.junit.Before
 import org.junit.Test
@@ -12,22 +11,21 @@ import android.content.Context
 import android.os.BatteryManager
 import android.app.ActivityManager
 import android.os.PowerManager
-import java.io.File
 
 /**
  * Real Device Validation Tests for SystemMonitorService
  * 
  * Ensures ALL data sources use 100% REAL device data (no estimates/simulations):
  * 
- * ✅ getRamUsage() - Uses ActivityManager.getMemoryInfo() (REAL)
- * ✅ getCompactCpuInfo() - Uses /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq (REAL)
- * ✅ getCompactPowerState() - Uses PowerManager API (REAL)
- * ✅ getCompactBatteryStatus() - Uses BatteryManager API (REAL)
- * ✅ getNetworkDownloadSpeed() - Actually downloads data from Cloudflare (REAL)
- * ✅ getNetworkUploadSpeed() - Actually uploads data to httpbin (REAL)
- * ✅ getCompactLatency() - Uses ping command (REAL)
- * ✅ getCompactFpsAndDropRate() - Uses Choreographer API (REAL)
- * ✅ PowerConsumptionUtils.getPowerConsumptionData() - Uses BatteryManager API (REAL)
+ * - getRamUsage() - Uses ActivityManager.getMemoryInfo() (REAL)
+ * - getCompactCpuInfo() - Uses sysfs CPU frequency files (REAL)
+ * - getCompactPowerState() - Uses PowerManager API (REAL)
+ * - getCompactBatteryStatus() - Uses BatteryManager API (REAL)
+ * - getNetworkDownloadSpeed() - Actually downloads data from Cloudflare (REAL)
+ * - getNetworkUploadSpeed() - Actually uploads data to httpbin (REAL)
+ * - getCompactLatency() - Uses ping command (REAL)
+ * - getCompactFpsAndDropRate() - Uses Choreographer API (REAL)
+ * - PowerConsumptionUtils.getPowerConsumptionData() - Uses BatteryManager API (REAL)
  * 
  * All tests run on REAL Android device to validate actual data sources.
  */

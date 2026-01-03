@@ -14,55 +14,90 @@ UI tests using Compose Test and Espresso that test actual UI components, interac
 ### 3. Integration Tests
 Both unit-level integration tests (in `test/`) and UI-level integration tests (in `androidTest/`) that test complete user flows and component interactions.
 
-## Test Files Created
+## Test Organization Structure
 
-### Unit Tests (`app/src/test/`)
+Tests are organized into meaningful folders for easy navigation and understanding:
 
-#### Core Functionality Tests
-1. **ShareTextGenerationTest.kt** - Tests share text generation for Health and Power tabs
-2. **AIPromptGenerationTest.kt** - Tests AI prompt generation for all tabs (Device, Network, Health, Power)
-3. **TabDataSharingTest.kt** - Unit-level integration tests for tab data sharing
-4. **PowerConsumptionAggregatorTest.kt** - Tests power data persistence and retrieval
-5. **AllTabsIntegrationTest.kt** - Comprehensive unit-level integration tests for all tabs
+### Unit Tests (`app/src/test/java/com/teamz/lab/debugger/`)
 
-#### Utility Tests
-6. **HealthScoreUtilsTest.kt** - Tests health score calculation, storage, and retrieval
-7. **DeviceUtilsTest.kt** - Tests device information retrieval (model, version, CPU, RAM, storage, battery)
-8. **NetworkUtilsTest.kt** - Tests network information retrieval (type, IP, WiFi, speed)
-9. **PowerConsumptionUtilsTest.kt** - Tests power consumption measurement and calculation
-10. **PowerRecommendationsTest.kt** - Tests power recommendations generation
-11. **PowerAlertsTest.kt** - Tests power alerts generation
-12. **PowerEducationTest.kt** - Tests power education content availability
-13. **PowerAchievementsTest.kt** - Tests achievements system (unlock, progress, retrieval)
-14. **AnalyticsUtilsTest.kt** - Tests analytics logging functionality
-15. **ReferralManagerTest.kt** - Tests referral code management
-16. **ThemeManagerTest.kt** - Tests theme management (light, dark, system)
+#### `core/` - Core Functionality Tests
+Tests for core app features like AI prompts, sharing, and tab integration:
+- **AIPromptGenerationTest.kt** - Tests AI prompt generation for all tabs (Device, Network, Health, Power)
+- **ShareTextGenerationTest.kt** - Tests share text generation for Health and Power tabs
+- **TabDataSharingTest.kt** - Unit-level integration tests for tab data sharing
+- **AllTabsIntegrationTest.kt** - Comprehensive unit-level integration tests for all tabs
 
-#### Specialized Test Types
-17. **PermissionHandlingTest.kt** - Tests permission checking and handling (Camera, Location, Phone State, Notifications)
-18. **ErrorHandlingTest.kt** - Tests error handling and graceful degradation
-19. **EdgeCaseTest.kt** - Tests boundary conditions and edge cases (zero values, negative values, very large values)
-20. **DeepLinkTest.kt** - Tests referral deep link handling and parsing
-21. **PerformanceTest.kt** - Tests performance and execution time of operations
-22. **DataPersistenceTest.kt** - Tests data persistence (health scores, camera test results, streaks)
-23. **NetworkTest.kt** - Tests network functionality and connection handling
-24. **RegressionTest.kt** - Regression tests to prevent previously fixed bugs from reappearing
-25. **MockDependencyTest.kt** - Tests with mocked dependencies and various configurations
+#### `utils/` - Utility Function Tests
+Tests for utility classes and helper functions:
+- **AnalyticsUtilsTest.kt** - Tests analytics logging functionality
+- **DeviceUtilsTest.kt** - Tests device information retrieval (model, version, CPU, RAM, storage, battery)
+- **HealthScoreUtilsTest.kt** - Tests health score calculation, storage, and retrieval
+- **NetworkUtilsTest.kt** - Tests network information retrieval (type, IP, WiFi, speed)
+- **PowerAchievementsTest.kt** - Tests achievements system (unlock, progress, retrieval)
+- **PowerAlertsTest.kt** - Tests power alerts generation
+- **PowerConsumptionAggregatorTest.kt** - Tests power data persistence and retrieval
+- **PowerConsumptionUtilsTest.kt** - Tests power consumption measurement and calculation
+- **PowerEducationTest.kt** - Tests power education content availability
+- **PowerRecommendationsTest.kt** - Tests power recommendations generation
+- **ReferralManagerTest.kt** - Tests referral code management
+- **RetentionNotificationManagerTest.kt** - Tests notification management
+- **SystemMonitorServiceTest.kt** - Tests background service functionality
+- **ThemeManagerTest.kt** - Tests theme management (light, dark, system)
 
-### UI Tests (`app/src/androidTest/`)
+#### `permissions/` - Permission Tests
+Tests for permission handling and manifest verification:
+- **ComponentPermissionRequestTest.kt** - Tests component permission requests
+- **ManifestPermissionsTest.kt** - Tests that all required permissions are in AndroidManifest.xml
+- **PermissionHandlingTest.kt** - Tests permission checking and handling (Camera, Location, Phone State, Notifications)
+- **PermissionManagerTest.kt** - Tests permission manager functionality
 
-#### UI Component Tests
-26. **MainActivityUITest.kt** - Tests MainActivity UI components (top bar, menu, tabs, FABs)
-27. **TabContentUITest.kt** - Tests content display for each tab (Device, Network, Health, Power)
-28. **PowerTabUITest.kt** - Specific UI tests for Power tab components and interactions
+#### `data/` - Data Persistence Tests
+Tests for data storage and retrieval:
+- **DataPersistenceTest.kt** - Tests data persistence (health scores, camera test results, streaks)
 
-#### Integration UI Tests
-29. **IntegrationUITest.kt** - Complete user flow tests (tab navigation, menu drawer, button interactions)
+#### `quality/` - Quality Assurance Tests
+Tests for code quality, edge cases, and performance:
+- **DeepLinkTest.kt** - Tests referral deep link handling and parsing
+- **EdgeCaseTest.kt** - Tests boundary conditions and edge cases (zero values, negative values, very large values)
+- **ErrorHandlingTest.kt** - Tests error handling and graceful degradation
+- **MockDependencyTest.kt** - Tests with mocked dependencies and various configurations
+- **NetworkTest.kt** - Tests network functionality and connection handling
+- **PerformanceTest.kt** - Tests performance and execution time of operations
+- **RegressionTest.kt** - Regression tests to prevent previously fixed bugs from reappearing
 
-#### Advanced UI Tests
-30. **AccessibilityUITest.kt** - Tests accessibility features (content descriptions, screen reader support)
-31. **EndToEndUITest.kt** - End-to-end user journey tests (complete workflows)
-32. **ExampleInstrumentedTest.kt** - Example instrumented test
+### UI Tests (`app/src/androidTest/java/com/teamz/lab/debugger/`)
+
+#### `ui/` - UI Component Tests
+Tests for UI components and user interactions:
+- **AccessibilityUITest.kt** - Tests accessibility features (content descriptions, screen reader support)
+- **MainActivityUITest.kt** - Tests MainActivity UI components (top bar, menu, tabs, FABs)
+- **PowerTabUITest.kt** - Specific UI tests for Power tab components and interactions
+- **TabContentUITest.kt** - Tests content display for each tab (Device, Network, Health, Power)
+
+#### `integration/` - Integration UI Tests
+Tests for complete user flows and workflows:
+- **ComprehensiveFeatureTest.kt** - Comprehensive feature integration tests
+- **EndToEndUITest.kt** - End-to-end user journey tests (complete workflows)
+- **IntegrationUITest.kt** - Complete user flow tests (tab navigation, menu drawer, button interactions)
+
+#### `features/` - Feature-Specific Tests
+Tests for specific app features:
+- **AdvancedFeatureTest.kt** - Tests advanced app features
+- **AppOpenAdTest.kt** - Tests app open ad functionality
+- **PowerDataResearchValidationTest.kt** - Tests power data research validation
+
+#### `permissions/` - Permission UI Tests
+UI tests for permission flows:
+- **ComponentDialogBugTest.kt** - Tests component dialog bug fixes
+- **ComponentPermissionRequestUITest.kt** - UI tests for component permission requests
+- **DuplicateNotificationTest.kt** - Tests duplicate notification prevention
+- **NotificationPermissionTest.kt** - Tests notification permission handling
+- **NotificationTest.kt** - Tests notification functionality
+- **RetentionNotificationManagerComprehensiveTest.kt** - Comprehensive notification manager tests
+
+#### `services/` - Service Tests
+Tests for background services:
+- **SystemMonitorServiceRealDeviceValidationTest.kt** - Real device validation for system monitor service
 
 ## Running Tests
 
@@ -83,12 +118,23 @@ Both unit-level integration tests (in `test/`) and UI-level integration tests (i
 
 ### Run Specific Unit Test Class
 ```bash
-./gradlew :app:testDebugUnitTest --tests "com.teamz.lab.debugger.ShareTextGenerationTest"
+# Run a test from core folder
+./gradlew :app:testDebugUnitTest --tests "com.teamz.lab.debugger.core.ShareTextGenerationTest"
+
+# Run a test from utils folder
+./gradlew :app:testDebugUnitTest --tests "com.teamz.lab.debugger.utils.DeviceUtilsTest"
+
+# Run a test from permissions folder
+./gradlew :app:testDebugUnitTest --tests "com.teamz.lab.debugger.permissions.ManifestPermissionsTest"
 ```
 
 ### Run Specific UI Test Class
 ```bash
-./gradlew :app:connectedAndroidTest --tests "com.teamz.lab.debugger.MainActivityUITest"
+# Run a test from ui folder
+./gradlew :app:connectedAndroidTest --tests "com.teamz.lab.debugger.ui.MainActivityUITest"
+
+# Run a test from integration folder
+./gradlew :app:connectedAndroidTest --tests "com.teamz.lab.debugger.integration.IntegrationUITest"
 ```
 
 ### Generate Coverage Report
@@ -225,54 +271,144 @@ Coverage report will be in: `app/build/reports/jacoco/testDebugUnitTest/html/ind
 - Theme management
 - Data persistence (SharedPreferences)
 
+## Test Folder Structure
+
+```
+app/src/
+├── test/java/com/teamz/lab/debugger/
+│   ├── core/                    # Core functionality tests
+│   │   ├── AIPromptGenerationTest.kt
+│   │   ├── AllTabsIntegrationTest.kt
+│   │   ├── ShareTextGenerationTest.kt
+│   │   └── TabDataSharingTest.kt
+│   ├── utils/                   # Utility function tests
+│   │   ├── AnalyticsUtilsTest.kt
+│   │   ├── DeviceUtilsTest.kt
+│   │   ├── HealthScoreUtilsTest.kt
+│   │   ├── NetworkUtilsTest.kt
+│   │   ├── PowerAchievementsTest.kt
+│   │   ├── PowerAlertsTest.kt
+│   │   ├── PowerConsumptionAggregatorTest.kt
+│   │   ├── PowerConsumptionUtilsTest.kt
+│   │   ├── PowerEducationTest.kt
+│   │   ├── PowerRecommendationsTest.kt
+│   │   ├── ReferralManagerTest.kt
+│   │   ├── RetentionNotificationManagerTest.kt
+│   │   ├── SystemMonitorServiceTest.kt
+│   │   └── ThemeManagerTest.kt
+│   ├── permissions/             # Permission tests
+│   │   ├── ComponentPermissionRequestTest.kt
+│   │   ├── ManifestPermissionsTest.kt
+│   │   ├── PermissionHandlingTest.kt
+│   │   └── PermissionManagerTest.kt
+│   ├── data/                     # Data persistence tests
+│   │   └── DataPersistenceTest.kt
+│   └── quality/                  # Quality assurance tests
+│       ├── DeepLinkTest.kt
+│       ├── EdgeCaseTest.kt
+│       ├── ErrorHandlingTest.kt
+│       ├── MockDependencyTest.kt
+│       ├── NetworkTest.kt
+│       ├── PerformanceTest.kt
+│       └── RegressionTest.kt
+│
+└── androidTest/java/com/teamz/lab/debugger/
+    ├── ui/                       # UI component tests
+    │   ├── AccessibilityUITest.kt
+    │   ├── MainActivityUITest.kt
+    │   ├── PowerTabUITest.kt
+    │   └── TabContentUITest.kt
+    ├── integration/              # Integration UI tests
+    │   ├── ComprehensiveFeatureTest.kt
+    │   ├── EndToEndUITest.kt
+    │   └── IntegrationUITest.kt
+    ├── features/                 # Feature-specific tests
+    │   ├── AdvancedFeatureTest.kt
+    │   ├── AppOpenAdTest.kt
+    │   └── PowerDataResearchValidationTest.kt
+    ├── permissions/              # Permission UI tests
+    │   ├── ComponentDialogBugTest.kt
+    │   ├── ComponentPermissionRequestUITest.kt
+    │   ├── DuplicateNotificationTest.kt
+    │   ├── NotificationPermissionTest.kt
+    │   ├── NotificationTest.kt
+    │   └── RetentionNotificationManagerComprehensiveTest.kt
+    └── services/                 # Service tests
+        └── SystemMonitorServiceRealDeviceValidationTest.kt
+```
+
 ## Complete Test File List
 
-### Unit Tests (`app/src/test/`)
+### Unit Tests (`app/src/test/java/com/teamz/lab/debugger/`)
 
-#### Core Functionality
+#### `core/` - Core Functionality (4 files)
 1. **AIPromptGenerationTest.kt** - AI prompt generation for all tabs
 2. **AllTabsIntegrationTest.kt** - Comprehensive unit-level integration tests
 3. **ShareTextGenerationTest.kt** - Share text generation
 4. **TabDataSharingTest.kt** - Tab data sharing integration
 
-#### Utilities
+#### `utils/` - Utility Functions (14 files)
 5. **AnalyticsUtilsTest.kt** - Analytics logging functionality
 6. **DeviceUtilsTest.kt** - Device information utilities
 7. **HealthScoreUtilsTest.kt** - Health score calculation and storage
 8. **NetworkUtilsTest.kt** - Network information utilities
-9. **PowerConsumptionAggregatorTest.kt** - Power data persistence
-10. **PowerConsumptionUtilsTest.kt** - Power measurement utilities
-11. **PowerRecommendationsTest.kt** - Power recommendations
-12. **PowerAlertsTest.kt** - Power alerts generation
+9. **PowerAchievementsTest.kt** - Achievements system
+10. **PowerAlertsTest.kt** - Power alerts generation
+11. **PowerConsumptionAggregatorTest.kt** - Power data persistence
+12. **PowerConsumptionUtilsTest.kt** - Power measurement utilities
 13. **PowerEducationTest.kt** - Power education content
-14. **PowerAchievementsTest.kt** - Achievements system
+14. **PowerRecommendationsTest.kt** - Power recommendations
 15. **ReferralManagerTest.kt** - Referral code management
-16. **ThemeManagerTest.kt** - Theme management
+16. **RetentionNotificationManagerTest.kt** - Notification management
+17. **SystemMonitorServiceTest.kt** - Background service functionality
+18. **ThemeManagerTest.kt** - Theme management
 
-#### Specialized Tests
-17. **PermissionHandlingTest.kt** - Permission checking and handling
-18. **ErrorHandlingTest.kt** - Error handling and graceful degradation
-19. **EdgeCaseTest.kt** - Boundary conditions and edge cases
-20. **DeepLinkTest.kt** - Referral deep link handling
-21. **PerformanceTest.kt** - Performance and execution time
-22. **DataPersistenceTest.kt** - Data persistence (scores, results, streaks)
-23. **NetworkTest.kt** - Network functionality and connection handling
-24. **RegressionTest.kt** - Regression tests for bug prevention
-25. **MockDependencyTest.kt** - Tests with mocked dependencies
-26. **ExampleUnitTest.kt** - Example test (can be removed)
+#### `permissions/` - Permission Tests (4 files)
+19. **ComponentPermissionRequestTest.kt** - Component permission requests
+20. **ManifestPermissionsTest.kt** - Manifest permission verification
+21. **PermissionHandlingTest.kt** - Permission checking and handling
+22. **PermissionManagerTest.kt** - Permission manager functionality
 
-### UI Tests (`app/src/androidTest/`)
+#### `data/` - Data Persistence (1 file)
+23. **DataPersistenceTest.kt** - Data persistence (scores, results, streaks)
 
-#### UI Component Tests
-27. **MainActivityUITest.kt** - MainActivity UI components (top bar, menu, tabs, FABs)
-28. **TabContentUITest.kt** - Tab content display tests for all tabs
-29. **PowerTabUITest.kt** - Power tab specific UI tests
+#### `quality/` - Quality Assurance (7 files)
+24. **DeepLinkTest.kt** - Referral deep link handling
+25. **EdgeCaseTest.kt** - Boundary conditions and edge cases
+26. **ErrorHandlingTest.kt** - Error handling and graceful degradation
+27. **MockDependencyTest.kt** - Tests with mocked dependencies
+28. **NetworkTest.kt** - Network functionality and connection handling
+29. **PerformanceTest.kt** - Performance and execution time
+30. **RegressionTest.kt** - Regression tests for bug prevention
 
-#### Integration & Advanced UI Tests
-30. **IntegrationUITest.kt** - Complete user flow integration tests
+### UI Tests (`app/src/androidTest/java/com/teamz/lab/debugger/`)
+
+#### `ui/` - UI Components (4 files)
 31. **AccessibilityUITest.kt** - Accessibility features testing
-32. **EndToEndUITest.kt** - End-to-end user journey tests
-33. **ExampleInstrumentedTest.kt** - Example instrumented test
+32. **MainActivityUITest.kt** - MainActivity UI components (top bar, menu, tabs, FABs)
+33. **PowerTabUITest.kt** - Power tab specific UI tests
+34. **TabContentUITest.kt** - Tab content display tests for all tabs
+
+#### `integration/` - Integration Tests (3 files)
+35. **ComprehensiveFeatureTest.kt** - Comprehensive feature integration tests
+36. **EndToEndUITest.kt** - End-to-end user journey tests
+37. **IntegrationUITest.kt** - Complete user flow integration tests
+
+#### `features/` - Feature Tests (3 files)
+38. **AdvancedFeatureTest.kt** - Advanced app features
+39. **AppOpenAdTest.kt** - App open ad functionality
+40. **PowerDataResearchValidationTest.kt** - Power data research validation
+
+#### `permissions/` - Permission UI Tests (6 files)
+41. **ComponentDialogBugTest.kt** - Component dialog bug fixes
+42. **ComponentPermissionRequestUITest.kt** - UI tests for component permission requests
+43. **DuplicateNotificationTest.kt** - Duplicate notification prevention
+44. **NotificationPermissionTest.kt** - Notification permission handling
+45. **NotificationTest.kt** - Notification functionality
+46. **RetentionNotificationManagerComprehensiveTest.kt** - Comprehensive notification manager tests
+
+#### `services/` - Service Tests (1 file)
+47. **SystemMonitorServiceRealDeviceValidationTest.kt** - Real device validation for system monitor service
 
 ## Test Coverage Summary
 

@@ -296,7 +296,7 @@ class PowerDataResearchValidationTest {
             component.details.isNotEmpty() || component.status.isNotEmpty()
         }
         
-        assertTrue(
+        org.junit.Assert.assertTrue(
             "Power data should include methodology information",
             hasMethodologyInfo
         )

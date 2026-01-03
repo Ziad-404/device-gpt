@@ -281,11 +281,10 @@ class RetentionNotificationManagerComprehensiveTest {
         // Verify daily notification limit resets on new day
         try {
             val prefs = context.getSharedPreferences("notification_prefs", Context.MODE_PRIVATE)
-            val yesterday = java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.getDefault()).apply {
-                val cal = java.util.Calendar.getInstance()
-                cal.add(java.util.Calendar.DAY_OF_YEAR, -1)
-                format(cal.time)
-            }
+            val dateFormat = java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.getDefault())
+            val cal = java.util.Calendar.getInstance()
+            cal.add(java.util.Calendar.DAY_OF_YEAR, -1)
+            val yesterday = dateFormat.format(cal.time)
             
             // Set notification count to max with yesterday's date
             prefs.edit().putString("last_notification_date", yesterday).putInt("notification_count_today", 3).apply()
