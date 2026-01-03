@@ -868,10 +868,14 @@ https://play.google.com/store/apps/details?id=${context.packageName}
                         is com.teamz.lab.debugger.utils.ShareResult.Success -> {
                             AnalyticsUtils.logEvent(AnalyticsEvent.ShareWithAI, emptyMap())
                             android.util.Log.d("DeviceGPT_AI", "Successfully shared with ${app.name}")
+                            // Track meaningful interaction for review prompt (after positive AI experience)
+                            ReviewPromptManager.trackMeaningfulInteraction(activity, "ai_share_success")
                         }
                         is com.teamz.lab.debugger.utils.ShareResult.PartialSuccess -> {
                             AnalyticsUtils.logEvent(AnalyticsEvent.ShareWithAI, emptyMap())
                             android.util.Log.w("DeviceGPT_AI", "Partial success: ${result.message}")
+                            // Track meaningful interaction for review prompt (after positive AI experience)
+                            ReviewPromptManager.trackMeaningfulInteraction(activity, "ai_share_partial")
                         }
                         is com.teamz.lab.debugger.utils.ShareResult.Failure -> {
                             android.util.Log.e("DeviceGPT_AI", "Share failed: ${result.error}")
@@ -955,6 +959,8 @@ https://play.google.com/store/apps/details?id=${context.packageName}
                                 mapOf<String, Any?>("item_title" to itemTitle)
                             )
                             android.util.Log.d("DeviceGPT_AI", "Successfully shared item: $itemTitle")
+                            // Track meaningful interaction for review prompt (after positive AI experience)
+                            ReviewPromptManager.trackMeaningfulInteraction(activity, "ai_share_item_success")
                         }
                         is com.teamz.lab.debugger.utils.ShareResult.PartialSuccess -> {
                             AnalyticsUtils.logEvent(
@@ -962,6 +968,8 @@ https://play.google.com/store/apps/details?id=${context.packageName}
                                 mapOf<String, Any?>("item_title" to itemTitle)
                             )
                             android.util.Log.w("DeviceGPT_AI", "Partial success for $itemTitle: ${result.message}")
+                            // Track meaningful interaction for review prompt (after positive AI experience)
+                            ReviewPromptManager.trackMeaningfulInteraction(activity, "ai_share_item_partial")
                         }
                         is com.teamz.lab.debugger.utils.ShareResult.Failure -> {
                             android.util.Log.e("DeviceGPT_AI", "Share failed for $itemTitle: ${result.error}")
@@ -1082,10 +1090,14 @@ https://play.google.com/store/apps/details?id=${context.packageName}
                         is com.teamz.lab.debugger.utils.ShareResult.Success -> {
                             AnalyticsUtils.logEvent(AnalyticsEvent.ShareWithAI, emptyMap())
                             android.util.Log.d("DeviceGPT_AI", "Successfully shared certificate with ${app.name}")
+                            // Track meaningful interaction for review prompt (after positive AI experience)
+                            ReviewPromptManager.trackMeaningfulInteraction(activity, "ai_share_certificate_success")
                         }
                         is com.teamz.lab.debugger.utils.ShareResult.PartialSuccess -> {
                             AnalyticsUtils.logEvent(AnalyticsEvent.ShareWithAI, emptyMap())
                             android.util.Log.w("DeviceGPT_AI", "Partial success: ${result.message}")
+                            // Track meaningful interaction for review prompt (after positive AI experience)
+                            ReviewPromptManager.trackMeaningfulInteraction(activity, "ai_share_certificate_partial")
                         }
                         is com.teamz.lab.debugger.utils.ShareResult.Failure -> {
                             android.util.Log.e("DeviceGPT_AI", "Share failed: ${result.error}")

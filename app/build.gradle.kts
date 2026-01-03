@@ -55,6 +55,8 @@ android {
             "\"${localConfigProperties.getProperty("OAUTH_CLIENT_ID", "")}\"")
         buildConfigField("String", "ONESIGNAL_APP_ID", 
             "\"${localConfigProperties.getProperty("ONESIGNAL_APP_ID", "")}\"")
+        buildConfigField("String", "REVENUECAT_API_KEY", 
+            "\"${localConfigProperties.getProperty("REVENUECAT_API_KEY", "")}\"")
         
         // Manifest placeholders for AndroidManifest.xml
         manifestPlaceholders["admobAppId"] = localConfigProperties.getProperty("ADMOB_APP_ID", "ca-app-pub-3940256099942544~3419835294")
@@ -93,9 +95,17 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            // Enable native debug symbols for crash analysis
+            // This generates symbol files for native libraries in dependencies
+            ndk {
+                debugSymbolLevel = "FULL"
+            }
         }
         getByName("debug") {
-
+            // Enable native debug symbols for debug builds too
+            ndk {
+                debugSymbolLevel = "FULL"
+            }
         }
     }
 
@@ -154,6 +164,8 @@ dependencies {
     implementation("com.google.android.gms:play-services-auth:21.0.0")
     // WorkManager for reliable background notification scheduling
     implementation("androidx.work:work-runtime-ktx:2.9.0")
+    // RevenueCat for subscription management and ad removal
+    implementation("com.revenuecat.purchases:purchases:8.3.0")
     implementation(libs.androidx.uiautomator)
     testImplementation(libs.junit)
     testImplementation("org.robolectric:robolectric:4.13")

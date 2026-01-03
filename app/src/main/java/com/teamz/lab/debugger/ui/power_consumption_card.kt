@@ -47,6 +47,7 @@ import com.teamz.lab.debugger.utils.AnalyticsUtils
 import com.teamz.lab.debugger.utils.AnalyticsEvent
 import com.teamz.lab.debugger.utils.PowerEducation
 import com.teamz.lab.debugger.utils.PowerAchievements
+import com.teamz.lab.debugger.utils.ReviewPromptManager
 import com.teamz.lab.debugger.utils.DeviceSleepTracker
 import com.teamz.lab.debugger.utils.PowerConsumptionUtils.AppPowerData
 import com.teamz.lab.debugger.ui.AIAssistantDialog
@@ -2278,6 +2279,10 @@ Total Tests: ${allResults.size}
                                                 mapOf("experiment_type" to "camera", "test_type" to "multiple")
                                             )
                                             PowerAchievements.recordExperimentCompletion(context, "camera")
+                                            // Track meaningful interaction for review prompt (after positive experiment experience)
+                                            activity?.let {
+                                                ReviewPromptManager.trackMeaningfulInteraction(it, "power_experiment_camera_completed")
+                                            }
                                         },
                                         onComplete = {
                             showMultipleTestDialog = true
@@ -2326,6 +2331,10 @@ Total Tests: ${allResults.size}
                                     mapOf("experiment_type" to "camera", "test_type" to "multiple")
                                 )
                                 PowerAchievements.recordExperimentCompletion(context, "camera")
+                                // Track meaningful interaction for review prompt (after positive experiment experience)
+                                activity?.let {
+                                    ReviewPromptManager.trackMeaningfulInteraction(it, "power_experiment_camera_completed")
+                                }
                                     },
                                     onComplete = {
                                         showMultipleTestDialog = true
@@ -3943,6 +3952,10 @@ This shows how CPU processing speed affects battery consumption.
                             mapOf("experiment_type" to "cpu")
                         )
                         PowerAchievements.recordExperimentCompletion(context, "cpu")
+                        // Track meaningful interaction for review prompt (after positive experiment experience)
+                        activity?.let {
+                            ReviewPromptManager.trackMeaningfulInteraction(it, "power_experiment_cpu_completed")
+                        }
                                 },
                                 onComplete = {
                                     showResultDialog = true
@@ -4599,6 +4612,10 @@ This shows how WiFi and cellular signal strength affects battery power consumpti
                             mapOf("experiment_type" to "network")
                         )
                         PowerAchievements.recordExperimentCompletion(context, "network")
+                        // Track meaningful interaction for review prompt (after positive experiment experience)
+                        activity?.let {
+                            ReviewPromptManager.trackMeaningfulInteraction(it, "power_experiment_network_completed")
+                        }
                                 },
                                 onComplete = {
                                     showResultDialog = true

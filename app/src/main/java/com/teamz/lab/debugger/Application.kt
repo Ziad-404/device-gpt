@@ -14,6 +14,7 @@ import com.teamz.lab.debugger.utils.InterstitialAdManager
 import com.teamz.lab.debugger.utils.RemoteConfigUtils
 import com.teamz.lab.debugger.utils.RetentionNotificationManager
 import com.teamz.lab.debugger.utils.ErrorHandler
+import com.teamz.lab.debugger.utils.RevenueCatManager
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -49,6 +50,19 @@ class MyApplication : Application(), Application.ActivityLifecycleCallbacks,
             }
             
             ProcessLifecycleOwner.get().lifecycle.addObserver(this)
+            
+            // Initialize RevenueCat for subscription management (ad removal)
+            android.util.Log.d("MyApplication", "onCreate() - Initializing RevenueCat...")
+            try {
+                // RevenueCat API key should be in local_config.properties as REVENUECAT_API_KEY
+                // If not found, RevenueCatManager will handle gracefully
+                RevenueCatManager.initialize(this)
+                android.util.Log.d("MyApplication", "onCreate() - RevenueCat initialized")
+            } catch (e: Exception) {
+                // RevenueCat initialization failure is not fatal - app can continue with ads
+                android.util.Log.w("MyApplication", "RevenueCat initialization failed - ads will be shown", e)
+                ErrorHandler.handleError(e, context = "MyApplication.onCreate-RevenueCat")
+            }
             
             // Initialize Remote Config
             android.util.Log.d("MyApplication", "onCreate() - Initializing RemoteConfig...")

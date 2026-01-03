@@ -27,6 +27,7 @@ import com.teamz.lab.debugger.utils.InterstitialAdManager
 import com.teamz.lab.debugger.utils.RemoteConfigUtils
 import com.teamz.lab.debugger.utils.AnalyticsUtils
 import com.teamz.lab.debugger.utils.AnalyticsEvent
+import com.teamz.lab.debugger.utils.ReviewPromptManager
 import kotlinx.coroutines.launch
 
 @Composable
@@ -104,6 +105,11 @@ fun HealthSection(
                         "streak" to HealthScoreUtils.getDailyStreak(context),
                         "best_score" to HealthScoreUtils.getBestScore(context)
                     ))
+                    
+                    // Track meaningful interaction for review prompt (after positive experience)
+                    if (context is android.app.Activity) {
+                        ReviewPromptManager.trackMeaningfulInteraction(context, "health_scan_completed")
+                    }
                     
                     // Upload to leaderboard after scan
                     com.teamz.lab.debugger.utils.LeaderboardDataUpload.uploadAfterHealthScan(context)

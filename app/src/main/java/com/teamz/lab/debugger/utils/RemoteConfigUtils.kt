@@ -46,6 +46,12 @@ object RemoteConfigUtils {
     }
 
     fun shouldShowInterstitialAds(): Boolean {
+        // Premium users never see ads
+        if (RevenueCatManager.isPremium()) {
+            android.util.Log.d("RemoteConfigUtils", "shouldShowInterstitialAds() - User has premium, skipping ads")
+            return false
+        }
+        
         // Disable video ads (interstitial) in debug mode
         if (BuildConfig.DEBUG) {
             return false
@@ -53,17 +59,40 @@ object RemoteConfigUtils {
         return remoteConfig.getBoolean("show_interstitial_ads")
     }
     
-    fun shouldShowBannerAds(): Boolean = remoteConfig.getBoolean("show_banner_ads")
+    fun shouldShowBannerAds(): Boolean {
+        // Premium users never see ads
+        if (RevenueCatManager.isPremium()) {
+            return false
+        }
+        return remoteConfig.getBoolean("show_banner_ads")
+    }
     
     fun shouldShowAppOpenAds(): Boolean {
+        // Premium users never see ads
+        if (RevenueCatManager.isPremium()) {
+            android.util.Log.d("RemoteConfigUtils", "shouldShowAppOpenAds() - User has premium, skipping ads")
+            return false
+        }
+        
         val shouldShow = remoteConfig.getBoolean("show_app_open_ads")
         android.util.Log.d("RemoteConfigUtils", "shouldShowAppOpenAds() - Returning: $shouldShow")
         return shouldShow
     }
     
-    fun shouldShowNativeAds(): Boolean = remoteConfig.getBoolean("show_native_ads")
+    fun shouldShowNativeAds(): Boolean {
+        // Premium users never see ads
+        if (RevenueCatManager.isPremium()) {
+            return false
+        }
+        return remoteConfig.getBoolean("show_native_ads")
+    }
     
     fun shouldShowRewardedAds(): Boolean {
+        // Premium users never see ads
+        if (RevenueCatManager.isPremium()) {
+            return false
+        }
+        
         // Disable video ads (rewarded) in debug mode
         if (BuildConfig.DEBUG) {
             return false
@@ -100,6 +129,10 @@ object RemoteConfigUtils {
     }
     
     fun shouldShowLeaderboardInterstitialAds(): Boolean {
+        // Premium users never see ads
+        if (RevenueCatManager.isPremium()) {
+            return false
+        }
         return remoteConfig.getBoolean("show_leaderboard_interstitial_ads")
     }
     
